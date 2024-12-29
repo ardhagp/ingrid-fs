@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 112,
+  "bottomRow": 66,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -40,7 +40,7 @@
     "GRN__",
     "GRN_DATE"
   ],
-  "columnUpdatedAt": 1735408673756,
+  "columnUpdatedAt": 1735431934792,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -401,7 +401,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
-  "tableData": "{{q_check_material.data}}",
+  "tableData": "{{q_Material_Find.data}}",
   "textSize": "0.875rem",
   "topRow": 13,
   "totalRecordsCount": "0",

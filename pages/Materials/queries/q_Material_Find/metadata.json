@@ -1,11 +1,11 @@
 {
   "gitSyncId": "665b481e330df209a50be134_f46273b7-20d1-4c63-849f-8f8ad37668b7",
-  "id": "Materials_q_check_material",
+  "id": "Materials_q_Material_Find",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT mtxd_rowid as 'ROW.ID', mtxd_miap as 'MIAP CODE', mtxd_dcdcode as 'DCD CODE', mtxd_materialname as 'MATERIAL NAME', mtxd_qty as 'QTY', mtxd_uom as 'UOM', mtxd_sapdoc as 'GRN #', mtxd_sapdocdate as 'GRN DATE' FROM mat_movement as mtx inner JOIN mat_movement_detail as mtxd on mtxd_mtxid = mtx_id ORDER BY mtxd_rowid DESC LIMIT 0,1000 ;",
+      "body": "SELECT mtxd_rowid as 'ROW.ID', mtxd_miap as 'MIAP CODE', mtxd_dcdcode as 'DCD CODE', mtxd_materialname as 'MATERIAL NAME', mtxd_qty as 'QTY', mtxd_uom as 'UOM', mtxd_sapdoc as 'GRN #', mtxd_sapdocdate as 'GRN DATE' FROM mat_movement as mtx inner JOIN mat_movement_detail as mtxd on mtxd_mtxid = mtx_id WHERE mtx_rowid = {{appsmith.URL.queryParams.TXID}} and mtx_publishcode = {{appsmith.URL.queryParams.UNIQUECODE}} ORDER BY mtxd_rowid;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,9 +22,13 @@
       "name": "Ingrid Online DB",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
-    "name": "q_check_material",
+    "name": "q_Material_Find",
     "pageId": "Materials",
     "userSetOnLoad": false
   }

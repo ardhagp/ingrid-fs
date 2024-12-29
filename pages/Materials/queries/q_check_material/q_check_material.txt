@@ -1,1 +1,0 @@
-SELECT mtxd_rowid as 'ROW.ID', mtxd_miap as 'MIAP CODE', mtxd_dcdcode as 'DCD CODE', mtxd_materialname as 'MATERIAL NAME', mtxd_qty as 'QTY', mtxd_uom as 'UOM', mtxd_sapdoc as 'GRN #', mtxd_sapdocdate as 'GRN DATE' FROM mat_movement as mtx inner JOIN mat_movement_detail as mtxd on mtxd_mtxid = mtx_id ORDER BY mtxd_rowid DESC LIMIT 0,1000 ;
