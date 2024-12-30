@@ -1,24 +1,25 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_695ac195-d3c5-49e0-9821-5ef2a13fbc1c",
+  "gitSyncId": "665b481e330df209a50be134_ccc48b4a-9d52-4fde-b028-5ae24c8cfc4d",
   "unpublishedPage": {
-    "customSlug": "materials",
+    "customSlug": "material-check",
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 670,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 780,
+          "minHeight": 1292,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 1224,
+          "rightColumn": 4896,
           "snapColumns": 64,
-          "snapRows": 76,
+          "snapRows": 124,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -27,7 +28,7 @@
         }
       }
     ],
-    "name": "Materials",
-    "slug": "materials"
+    "name": "Check Materials",
+    "slug": "check-materials"
   }
 }
