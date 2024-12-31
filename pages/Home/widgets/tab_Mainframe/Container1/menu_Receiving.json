@@ -29,8 +29,8 @@
   "isLoading": false,
   "isVisible": true,
   "key": "wijkbd3u5i",
-  "label": "",
-  "leftColumn": 3,
+  "label": "Receiving",
+  "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
@@ -64,7 +64,7 @@
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
-  "rightColumn": 21,
+  "rightColumn": 64,
   "sourceData": "[]",
   "topRow": 4,
   "type": "MENU_BUTTON_WIDGET",
