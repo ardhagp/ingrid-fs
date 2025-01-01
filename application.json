@@ -42,6 +42,10 @@
     {
       "id": "Check Delivery Status",
       "isDefault": false
+    },
+    {
+      "id": "Scan QR Code",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

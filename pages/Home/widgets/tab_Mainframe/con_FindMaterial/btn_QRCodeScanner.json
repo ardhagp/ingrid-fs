@@ -14,7 +14,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "barcode",
   "isDefaultClickDisabled": true,
@@ -29,6 +33,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Scan QR Code', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 18.875,
   "parentId": "4ltduszulj",
   "parentRowSpace": 10,
