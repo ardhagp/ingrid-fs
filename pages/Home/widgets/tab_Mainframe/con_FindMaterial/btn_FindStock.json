@@ -3,16 +3,6 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 8,
   "boxShadow": "none",
-  "configureMenuItems": {
-    "config": {
-      "id": "config",
-      "isDisabled": false,
-      "isVisible": true,
-      "label": "Menu Item"
-    },
-    "id": "config",
-    "label": "Configure menu items"
-  },
   "dynamicBindingPathList": [
     {
       "key": "menuColor"
@@ -23,52 +13,57 @@
   ],
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "iconName": "book",
+  "iconName": "box",
   "isCompact": false,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "wijkbd3u5i",
-  "label": "Receiving [...]",
+  "label": "Stock [...]",
   "leftColumn": 0,
   "menuColor": "{{appsmith.theme.colors.primaryColor}}",
   "menuItems": {
     "menuItem1": {
-      "iconName": "application",
       "id": "menuItem1",
       "index": 0,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Receiving",
+      "label": "First Menu Item",
       "widgetId": ""
     },
     "menuItem2": {
-      "iconName": "application",
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Receiving by Date",
+      "label": "Second Menu Item",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Third Menu Item",
       "widgetId": ""
     }
   },
   "menuItemsSource": "STATIC",
   "menuVariant": "PRIMARY",
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "parentColumnSpace": 19.1875,
-  "parentId": "t5l6kux8ag",
+  "parentColumnSpace": 18.875,
+  "parentId": "4ltduszulj",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "renderMode": "CANVAS",
   "rightColumn": 64,
-  "sourceData": "[]",
   "topRow": 4,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "t56ck4fi5u",
-  "widgetName": "menu_Receiving"
+  "widgetId": "joc0zshxaq",
+  "widgetName": "btn_FindStock"
 }

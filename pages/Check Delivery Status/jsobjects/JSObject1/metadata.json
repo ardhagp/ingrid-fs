@@ -1,9 +1,9 @@
 {
   "gitSyncId": "665b481e330df209a50be134_a0d4edf4-63bf-4fcf-aceb-452712f94570",
-  "id": "Check Materials_JSObject1",
+  "id": "Check Delivery Status_JSObject1",
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "Check Materials",
+    "pageId": "Check Delivery Status",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": [

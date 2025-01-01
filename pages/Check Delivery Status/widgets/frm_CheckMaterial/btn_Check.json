@@ -33,7 +33,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Check Materials', {\n  \"REGID\": inp_RegID.text,\n  \"PUBLISH\": inp_PublishCode.text\n}, 'SAME_WINDOW');\nq_Material_Find.run();\nq_Material_Find_Contractor.run()}}",
+  "onClick": "{{navigateTo('Check Delivery Status', {\n  \"REGID\": inp_RegID.text,\n  \"PUBLISH\": inp_PublishCode.text\n}, 'SAME_WINDOW');\nq_Material_Find.run();\nq_Material_Find_Contractor.run();}}",
   "parentColumnSpace": 9.5,
   "parentId": "e3drdppyoc",
   "parentRowSpace": 10,

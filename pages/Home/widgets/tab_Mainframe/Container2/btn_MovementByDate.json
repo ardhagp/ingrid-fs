@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 8,
   "boxShadow": "none",
   "buttonColor": "#22c55e",
   "buttonVariant": "PRIMARY",
@@ -11,13 +11,9 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "iconName": "box",
+  "iconName": "changes",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -25,13 +21,12 @@
   "key": "t7n96sxzxs",
   "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 5,
-  "mobileLeftColumn": 19,
-  "mobileRightColumn": 35,
-  "mobileTopRow": 1,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 55,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Check Delivery Status', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 19.1875,
+  "parentColumnSpace": 19.5,
   "parentId": "w8q086r48d",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -40,11 +35,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Check Delivery Material (for Contractor)",
-  "tooltip": "Check material by Reg. ID and Publish Code (for Contractor)",
-  "topRow": 8,
+  "text": "Movement by Date",
+  "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "djufae5rfy",
-  "widgetName": "btn_MaterialMovement_ByDate"
+  "widgetId": "km1d12l22e",
+  "widgetName": "btn_MovementByDate"
 }
