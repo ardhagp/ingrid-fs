@@ -31,7 +31,7 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onCodeDetected": "{{showAlert('Success', 'success');}}",
+  "onCodeDetected": "{{showAlert('Success', 'success').then(() => {\n  js_sentcode.scanner_QRCodeonCodeDetected();\n});}}",
   "originalBottomRow": 60,
   "originalTopRow": 27,
   "parentColumnSpace": 19.5,

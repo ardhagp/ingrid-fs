@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665b481e330df209a50be134_fbfd8ec2-fd84-4537-a869-e19cca280e57",
+  "id": "Scan QR Code_js_sentcode",
+  "unpublishedCollection": {
+    "name": "js_sentcode",
+    "pageId": "Scan QR Code",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
