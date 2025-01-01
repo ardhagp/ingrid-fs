@@ -12,6 +12,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCodeDetected"
+    }
+  ],
   "flexVerticalAlignment": "start",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
@@ -26,6 +31,7 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
+  "onCodeDetected": "{{showAlert('Success', 'success');}}",
   "originalBottomRow": 60,
   "originalTopRow": 27,
   "parentColumnSpace": 19.5,
