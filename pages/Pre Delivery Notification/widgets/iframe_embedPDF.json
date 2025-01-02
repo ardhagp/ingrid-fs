@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 103,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yf8bzy61bz",
+  "leftColumn": 0,
+  "mobileBottomRow": 90,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 58,
+  "needsErrorInfo": false,
+  "originalBottomRow": 103,
+  "originalTopRow": 58,
+  "parentColumnSpace": 19.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "source": "https://www.example.com",
+  "topRow": 58,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "g3hcgf323b",
+  "widgetName": "iframe_embedPDF"
+}

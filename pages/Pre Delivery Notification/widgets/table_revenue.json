@@ -1,0 +1,172 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 50,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "showroom_revenue",
+    "date_revenue"
+  ],
+  "columnUpdatedAt": 1735735713169,
+  "columnWidthMap": {},
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "primaryColumns.showroom_revenue.computedValue"
+    },
+    {
+      "key": "primaryColumns.date_revenue.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableClientSideSearch": true,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "gvz20rhhnp",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 50,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 22,
+  "needsErrorInfo": false,
+  "originalBottomRow": 50,
+  "originalTopRow": 22,
+  "parentColumnSpace": 19.5,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "primaryColumns": {
+    "date_revenue": {
+      "alias": "date_revenue",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "date",
+      "computedValue": "{{table_revenue.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"date_revenue\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "date_revenue",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "date_revenue",
+      "notation": "standard",
+      "originalId": "date_revenue",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "showroom_revenue": {
+      "alias": "showroom_revenue",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{table_revenue.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"showroom_revenue\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "showroom_revenue",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "showroom_revenue",
+      "notation": "standard",
+      "originalId": "showroom_revenue",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "tableData": "[\n  {\n\t\"showroom_revenue\": 35000000,\n\t\"date_revenue\": \"2020-04-30\"\n  },\n  {\n\t\"showroom_revenue\": 35000000,\n\t\"date_revenue\": \"2020-05-31\"\n  },\n  {\n\t\"showroom_revenue\": 22000000,\n\t\"date_revenue\": \"2020-06-30\"\n  },\n  {\n\t\"showroom_revenue\": 40000000,\n\t\"date_revenue\": \"2020-07-31\"\n  },\n  {\n\t\"showroom_revenue\": 41000000,\n\t\"date_revenue\": \"2020-08-31\"\n  },\n  {\n\t\"showroom_revenue\": 47000000,\n\t\"date_revenue\": \"2020-09-30\"\n  },\n  {\n\t\"showroom_revenue\": 47000000,\n\t\"date_revenue\": \"2020-10-31\"\n  },\n  {\n\t\"showroom_revenue\": 45000000,\n\t\"date_revenue\": \"2020-11-30\"\n  },\n  {\n\t\"showroom_revenue\": 40000000,\n\t\"date_revenue\": \"2020-12-31\"\n  },\n  {\n\t\"showroom_revenue\": 50000000,\n\t\"date_revenue\": \"2021-01-31\"\n  }\n]",
+  "textSize": "0.875rem",
+  "topRow": 22,
+  "totalRecordsCount": 0,
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "1xuf5h1niv",
+  "widgetName": "table_revenue"
+}

@@ -46,6 +46,10 @@
     {
       "id": "Scan QR Code",
       "isDefault": false
+    },
+    {
+      "id": "Pre Delivery Notification",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

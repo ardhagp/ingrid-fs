@@ -1,13 +1,13 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_b7ab88d1-82f1-401f-9516-dfab71e4e4fe",
+  "gitSyncId": "665b481e330df209a50be134_5503ec40-0a00-4a37-8191-a66fe175a25b",
   "unpublishedPage": {
-    "customSlug": "scan-qr-code",
+    "customSlug": "pdn",
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 650,
+          "bottomRow": 1030,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Scan QR Code",
-    "slug": "scan-qr-code"
+    "name": "Pre Delivery Notification",
+    "slug": "pre-delivery-notification"
   }
 }

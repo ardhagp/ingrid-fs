@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 49,
+  "bottomRow": 61,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,14 +21,14 @@
   "isLoading": false,
   "isVisible": true,
   "key": "gdh6mopsv5",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 49,
+  "mobileBottomRow": 61,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
-  "mobileTopRow": 45,
+  "mobileTopRow": 57,
   "needsErrorInfo": false,
   "overflow": "NONE",
   "parentColumnSpace": 19.5,
@@ -38,13 +38,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 51,
   "shouldTruncate": false,
-  "text": "",
+  "text": "DCD CODE :",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 45,
+  "topRow": 57,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "0v6ymdyv54",
-  "widgetName": "txt_RegID"
+  "widgetId": "h7rd0j8zf1",
+  "widgetName": "lbl_DCDCODE"
 }

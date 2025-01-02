@@ -1,33 +1,33 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 16,
+  "bottomRow": 65,
   "boxShadow": "none",
-  "buttonColor": "#22c55e",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
+      "key": "buttonColor"
+    },
+    {
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "iconName": "calendar",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "t7n96sxzxs",
-  "leftColumn": 0,
+  "leftColumn": 51,
   "minWidth": 120,
-  "mobileBottomRow": 63,
-  "mobileLeftColumn": 9,
-  "mobileRightColumn": 25,
-  "mobileTopRow": 59,
+  "mobileBottomRow": 75,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 71,
   "needsErrorInfo": false,
   "parentColumnSpace": 19.5,
-  "parentId": "w8q086r48d",
+  "parentId": "0",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -35,10 +35,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Accrual",
-  "topRow": 12,
+  "text": "Submit",
+  "topRow": 49,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "g3zzybt9ry",
-  "widgetName": "btn_Accrual"
+  "widgetId": "edapbu7vex",
+  "widgetName": "Button2"
 }

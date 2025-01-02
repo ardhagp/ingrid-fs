@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#dbeafe",
+  "backgroundColor": "#FFFFFF",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 66,
+  "bottomRow": 7,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 220,
+      "bottomRow": 70,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "a5hz2mnd4e",
+      "parentId": "r1wrmdsu3u",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "4ltduszulj",
-      "widgetName": "Canvas6"
+      "widgetId": "9tm36wk4iz",
+      "widgetName": "Canvas1"
     }
   ],
   "containerStyle": "card",
@@ -59,7 +59,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
@@ -70,23 +70,21 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "mobileBottomRow": 74,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 64,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 24,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 66,
-  "originalTopRow": 44,
   "parentColumnSpace": 19.5,
-  "parentId": "shwzibkuvn",
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "shouldScrollContents": true,
-  "topRow": 44,
+  "shouldScrollContents": false,
+  "topRow": 0,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "a5hz2mnd4e",
-  "widgetName": "con_FindMaterial"
+  "widgetId": "r1wrmdsu3u",
+  "widgetName": "Container1"
 }

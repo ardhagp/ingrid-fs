@@ -1,5 +1,7 @@
 export default {
 	scanner_QRCodeonCodeDetected () {
-		txt_RegID.setText(scanner_QRCode.value);
+		const VText = scanner_QRCode.value;
+		const AText = VText.split("/");
+		txt_RegID.setText(AText[0]);
 	}
 }
