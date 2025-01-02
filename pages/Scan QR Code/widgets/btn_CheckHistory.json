@@ -1,31 +1,31 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 65,
+  "bottomRow": 74,
   "boxShadow": "none",
-  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
-      "key": "buttonColor"
-    },
-    {
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "t7n96sxzxs",
-  "leftColumn": 51,
+  "leftColumn": 0,
   "minWidth": 120,
   "mobileBottomRow": 75,
   "mobileLeftColumn": 42,
   "mobileRightColumn": 58,
   "mobileTopRow": 71,
   "needsErrorInfo": false,
+  "originalBottomRow": 77,
+  "originalTopRow": 73,
   "parentColumnSpace": 19.5,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -35,10 +35,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Submit",
-  "topRow": 49,
+  "text": "Check Material History",
+  "topRow": 70,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "edapbu7vex",
-  "widgetName": "Button2"
+  "widgetName": "btn_CheckHistory"
 }
