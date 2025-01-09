@@ -47,7 +47,7 @@
   "mobileRightColumn": 22,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onTextChanged": "{{txt_Result_MD5.setValue(js_test.md5(txt_md5.text))}}",
+  "onTextChanged": "{{txt_Result_MD5.setValue(js_page.md5(txt_md5.text))}}",
   "parentColumnSpace": 19.5,
   "parentId": "zvfka00zvc",
   "parentRowSpace": 10,

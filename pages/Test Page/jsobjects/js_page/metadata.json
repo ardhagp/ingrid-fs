@@ -1,8 +1,8 @@
 {
   "gitSyncId": "665b481e330df209a50be134_a68e3543-3d76-4379-a741-19d214e2d0e4",
-  "id": "Test Page_js_test",
+  "id": "Test Page_js_page",
   "unpublishedCollection": {
-    "name": "js_test",
+    "name": "js_page",
     "pageId": "Test Page",
     "pluginId": "js-plugin",
     "pluginType": "JS",

@@ -36,7 +36,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onClick": "{{txt_Result_RandomString.setValue(js_test.makeid(5))}}",
+  "onClick": "{{txt_Result_RandomString.setValue(js_page.makeid(5))}}",
   "parentColumnSpace": 19.1875,
   "parentId": "zvfka00zvc",
   "parentRowSpace": 10,
