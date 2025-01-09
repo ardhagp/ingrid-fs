@@ -25,7 +25,7 @@
   "color": "#D9E7FF",
   "embedSetting": {
     "height": "720px",
-    "showNavigationBar": true,
+    "showNavigationBar": false,
     "width": "1024px"
   },
   "evaluationVersion": 2,
@@ -52,7 +52,7 @@
       "isDefault": false
     },
     {
-      "id": "Login or Register",
+      "id": "Authorization",
       "isDefault": false
     },
     {

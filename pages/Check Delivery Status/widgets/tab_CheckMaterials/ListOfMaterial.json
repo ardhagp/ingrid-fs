@@ -40,7 +40,7 @@
     "GRN__",
     "GRN_DATE"
   ],
-  "columnUpdatedAt": 1735431934792,
+  "columnUpdatedAt": 1736436794060,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -123,7 +123,7 @@
   "primaryColumns": {
     "DCD_CODE": {
       "alias": "DCD CODE",
-      "allowCellWrapping": false,
+      "allowCellWrapping": true,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
@@ -227,7 +227,7 @@
     },
     "MATERIAL_NAME": {
       "alias": "MATERIAL NAME",
-      "allowCellWrapping": false,
+      "allowCellWrapping": true,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
@@ -261,7 +261,7 @@
     },
     "MIAP_CODE": {
       "alias": "MIAP CODE",
-      "allowCellWrapping": false,
+      "allowCellWrapping": true,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
