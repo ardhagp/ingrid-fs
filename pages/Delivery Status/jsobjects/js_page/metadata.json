@@ -1,9 +1,9 @@
 {
   "gitSyncId": "665b481e330df209a50be134_957f8bd8-938b-473e-9ef5-dd2cdb31beaa",
-  "id": "Check Delivery Status_js_page",
+  "id": "Delivery Status_js_page",
   "unpublishedCollection": {
     "name": "js_page",
-    "pageId": "Check Delivery Status",
+    "pageId": "Delivery Status",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": []

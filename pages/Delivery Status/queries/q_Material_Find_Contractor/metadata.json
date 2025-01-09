@@ -1,6 +1,6 @@
 {
   "gitSyncId": "665b481e330df209a50be134_ab3835e8-de1e-4b44-a2bd-27420ee0d85c",
-  "id": "Check Delivery Status_q_Material_Find_Contractor",
+  "id": "Delivery Status_q_Material_Find_Contractor",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": true,
     "name": "q_Material_Find_Contractor",
-    "pageId": "Check Delivery Status",
+    "pageId": "Delivery Status",
     "userSetOnLoad": false
   }
 }

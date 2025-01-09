@@ -1,7 +1,7 @@
 {
   "gitSyncId": "665b481e330df209a50be134_ccc48b4a-9d52-4fde-b028-5ae24c8cfc4d",
   "unpublishedPage": {
-    "customSlug": "check-delivery-status",
+    "customSlug": "delivery-status",
     "isHidden": true,
     "layouts": [
       {
@@ -28,7 +28,7 @@
         }
       }
     ],
-    "name": "Check Delivery Status",
-    "slug": "check-delivery-status"
+    "name": "Delivery Status",
+    "slug": "delivery-status"
   }
 }

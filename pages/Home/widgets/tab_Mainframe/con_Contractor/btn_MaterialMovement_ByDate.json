@@ -30,7 +30,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Check Delivery Status', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Delivery Status', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.1875,
   "parentId": "3mvyyt00pq",
   "parentRowSpace": 10,
