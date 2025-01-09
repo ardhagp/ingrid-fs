@@ -144,6 +144,51 @@
       "version": 1,
       "widgetId": "vgelcr6v96",
       "widgetName": "Canvas5"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 450,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "hdek6soxbi",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 490,
+      "minWidth": 450,
+      "mobileBottomRow": 491,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1248,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "ifcrok1um6",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1248,
+      "tabId": "tabl5ylaxrj14",
+      "tabName": "Logout",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "l5swv7jptk",
+      "widgetName": "Canvas6"
     }
   ],
   "defaultTab": "Login",
@@ -156,9 +201,29 @@
     },
     {
       "key": "boxShadow"
+    },
+    {
+      "key": "tabsObj.tabl5ylaxrj14.isVisible"
+    },
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "tabsObj.tabl5ylaxrj14.isVisible"
+    },
+    {
+      "key": "tabsObj.tab1.isVisible"
+    },
+    {
+      "key": "tabsObj.tab2.isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
@@ -186,7 +251,8 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
-      "isVisible": true,
+      "isDuplicateLabel": false,
+      "isVisible": "{{appsmith.store.Employee.IsLoggedOut}}",
       "label": "Login",
       "positioning": "vertical",
       "widgetId": "8jpoakumc0"
@@ -194,15 +260,25 @@
     "tab2": {
       "id": "tab2",
       "index": 1,
-      "isVisible": true,
+      "isDuplicateLabel": false,
+      "isVisible": "{{appsmith.store.Employee.IsLoggedOut}}",
       "label": "Register",
       "positioning": "vertical",
       "widgetId": "04l753jk2h"
     },
+    "tabl5ylaxrj14": {
+      "id": "tabl5ylaxrj14",
+      "index": 2,
+      "isDuplicateLabel": false,
+      "isVisible": "{{appsmith.store.Employee.IsLoggedIn}}",
+      "label": "Logout",
+      "widgetId": "l5swv7jptk"
+    },
     "tabzbyf03zr82": {
       "id": "tabzbyf03zr82",
-      "index": 2,
-      "isVisible": true,
+      "index": 3,
+      "isDuplicateLabel": false,
+      "isVisible": false,
       "label": "Restricted",
       "widgetId": "vgelcr6v96"
     }

@@ -36,7 +36,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{storeValue(\"Employee\",{\"IsLogged\": true, \"UserID\": txt_UserID.text})}}\n",
+  "onClick": "{{storeValue(\"Employee\",{\"IsLoggedIn\": true, \"IsLoggedOut\": false, \"UserID\": txt_UserID.text})}}\n{{navigateTo('Home')}}",
   "parentId": "l4nn5xtcw5",
   "placement": "CENTER",
   "recaptchaType": "V3",
