@@ -11,7 +11,7 @@
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {
@@ -50,6 +50,14 @@
     {
       "id": "Pre Delivery Notification",
       "isDefault": false
+    },
+    {
+      "id": "Login or Register",
+      "isDefault": false
+    },
+    {
+      "id": "Test Page",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
@@ -63,7 +71,7 @@
       "navStyle": "stacked",
       "orientation": "top",
       "position": "static",
-      "showNavbar": true,
+      "showNavbar": false,
       "showSignIn": false
     },
     "themeSetting": {
