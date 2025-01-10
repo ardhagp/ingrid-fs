@@ -1,7 +1,7 @@
 export default {
 autorun(){
 	try{
-		if (appsmith.store.Employee.IsLogged==false) {
+		if (appsmith.store.Employee.IsLoggedIn==false) {
 			navigateTo('Authorization');
 			console.log(appsmith.store.UserID);
 			return appsmith.store.UserID;
