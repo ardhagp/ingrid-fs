@@ -1,13 +1,12 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_1ce6c555-9ff1-4c15-b2b4-12689d6597b1",
+  "gitSyncId": "665b481e330df209a50be134_e2817e64-1427-4aa6-a598-bb291fff49a8",
   "unpublishedPage": {
-    "customSlug": "home",
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1220,
+          "bottomRow": 800,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Debug Page",
+    "slug": "debug-page"
   }
 }

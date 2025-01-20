@@ -1,0 +1,1 @@
+SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee.UserID}}' AND employee_password_web = '{{appsmith.store.Employee.UserPassword}}'

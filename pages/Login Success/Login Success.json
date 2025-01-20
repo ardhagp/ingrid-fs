@@ -1,13 +1,13 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_1ce6c555-9ff1-4c15-b2b4-12689d6597b1",
+  "gitSyncId": "665b481e330df209a50be134_ef51c351-70e7-4523-b2b9-14cd4e9a063f",
   "unpublishedPage": {
-    "customSlug": "home",
+    "customSlug": "authorization",
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1220,
+          "bottomRow": 470,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Login Success",
+    "slug": "login-success"
   }
 }

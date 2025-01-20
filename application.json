@@ -52,11 +52,19 @@
       "isDefault": false
     },
     {
-      "id": "Authorization",
+      "id": "Login Success",
       "isDefault": false
     },
     {
-      "id": "Test Page",
+      "id": "Debug Page",
+      "isDefault": false
+    },
+    {
+      "id": "Login & Register",
+      "isDefault": false
+    },
+    {
+      "id": "Logout",
       "isDefault": false
     }
   ],
