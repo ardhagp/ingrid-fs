@@ -47,7 +47,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Contractor Details",
+      "tabName": "Delivery Details",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -145,7 +145,7 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Contractor Details",
+      "label": "Delivery Details",
       "positioning": "vertical",
       "widgetId": "z0bj2ch2ij"
     },

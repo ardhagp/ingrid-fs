@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "Successful",
+  "text": "Welcome, {{appsmith.store.Employee.FullName}}",
   "textAlign": "LEFT",
   "textColor": "#ffffff",
   "topRow": 0,

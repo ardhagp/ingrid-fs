@@ -3,15 +3,18 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 60,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{appsmith.store.Employee.Role}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -22,33 +25,33 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "wuyasxdxr3",
-  "label": "Result Random String",
+  "key": "ur3d2zcve2",
+  "label": "Employee.Role",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 19,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 12,
+  "mobileBottomRow": 60,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 53,
   "needsErrorInfo": false,
-  "parentColumnSpace": 19.1875,
-  "parentId": "zvfka00zvc",
+  "parentColumnSpace": 9.1875,
+  "parentId": "qxp33a44d1",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "showStepArrows": false,
-  "topRow": 24,
+  "topRow": 53,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "isp84or5sj",
-  "widgetName": "txt_Result_RandomString"
+  "widgetId": "0o0ktlgm39",
+  "widgetName": "txt_Employee_Role"
 }

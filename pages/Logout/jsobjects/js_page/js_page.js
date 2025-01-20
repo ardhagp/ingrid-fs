@@ -14,7 +14,7 @@ export default {
 			txt_Result.setVisibility(false);
 			txt_Result.setText('Berhasil');
 			//console.log(q_login.data.length);
-			storeValue("Employee",{"IsLoggedIn": true, "IsLoggedOut": false,"UserID": txt_UserID.text});
+			storeValue("Employee",{"IsLoggedIn": true, "IsLoggedOut": false,"UserID": txt_UserID.text,"IsAdmin":q_login.data[0]});
 			storeValue("AppSettings",{"Authorization_Tab_Login_IsVisible": false,"Authorization_Tab_Register_IsVisible": false,"Authorization_Tab_Logout_IsVisible": true,"Authorization_Tab_Restricted_IsVisible": false,"Authorization_Tab_Default":"Logout"});
 			navigateTo('Login Success');
 		} else if (q_login.data.length===0) {

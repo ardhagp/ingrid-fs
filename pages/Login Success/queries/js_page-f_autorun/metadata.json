@@ -1,16 +1,12 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_52a0e9c9-371a-44e8-9bd6-e854a9a01421",
-  "id": "Login Success_js_page.md5",
+  "gitSyncId": "665b481e330df209a50be134_3b747576-778a-4ba3-8a09-3959466255b2",
+  "id": "Login Success_js_page.f_autorun",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
     "actionConfiguration": {
       "encodeParamsToggle": true,
-      "jsArguments": [
-        {
-          "name": "Input"
-        }
-      ],
+      "jsArguments": [],
       "paginationType": "NONE",
       "timeoutInMillisecond": 10000
     },
@@ -26,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "fullyQualifiedName": "js_page.md5",
-    "name": "md5",
+    "executeOnLoad": true,
+    "fullyQualifiedName": "js_page.f_autorun",
+    "name": "f_autorun",
     "pageId": "Login Success",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
