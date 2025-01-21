@@ -1,11 +1,14 @@
-# ingrid-web![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+> [!IMPORTANT]
+> This page is intended for developers who want to collaborate to improving Ingrid.
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+![Start Line](https://res.cloudinary.com/cagakmelon/image/upload/v1686057819/apps/ingrid-assets/readme.md/readme.md.png)
+#   <span style="color:darkorange">**About Project & Status**</span>
+Ingrid FS is a Web Application built using AppSmith to access Ingrid data when you are mobile, some of features may different from Ingrid Online (Windows Desktop) version.
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+[![Static Badge](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/license/mit/) 
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+![Start Line](https://res.cloudinary.com/cagakmelon/image/upload/v1686057819/apps/ingrid-assets/readme.md/readme.md.png)
+#   <span style="color:darkorange">**About License**</span>
+This application is released under the [MIT license]($/Ingrid/LICENSE). You can use the code for any purpose, including commercial projects.
 
-##### You can visit the application using the below link
-
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/665b481e330df209a50be134/pages/665b5302c70b7d570f8598c0) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/665b481e330df209a50be134/pages/665b5302c70b7d570f8598c0/edit)
+![MIT License](https://res.cloudinary.com/cagakmelon/image/upload/v1697064703/apps/ingrid-assets/readme.md/license.png)
