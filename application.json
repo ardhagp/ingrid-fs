@@ -70,10 +70,6 @@
     {
       "id": "Startup",
       "isDefault": true
-    },
-    {
-      "id": "Logout Copy",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
