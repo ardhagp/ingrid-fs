@@ -31,6 +31,8 @@
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Delivery Status', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 19.1875,
   "parentId": "3mvyyt00pq",
   "parentRowSpace": 10,

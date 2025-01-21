@@ -33,6 +33,8 @@
   "mobileTopRow": 99,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Debug Page', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 19.5,
   "parentId": "83ywa8urlu",
   "parentRowSpace": 10,

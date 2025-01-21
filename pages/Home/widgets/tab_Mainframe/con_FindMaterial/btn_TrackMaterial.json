@@ -29,6 +29,8 @@
   "mobileRightColumn": 27,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
   "parentColumnSpace": 18.875,
   "parentId": "4ltduszulj",
   "parentRowSpace": 10,

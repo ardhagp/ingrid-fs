@@ -33,7 +33,7 @@
   "pages": [
     {
       "id": "Home",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Materials",
@@ -66,6 +66,10 @@
     {
       "id": "Logout",
       "isDefault": false
+    },
+    {
+      "id": "Startup",
+      "isDefault": true
     }
   ],
   "unpublishedAppLayout": {

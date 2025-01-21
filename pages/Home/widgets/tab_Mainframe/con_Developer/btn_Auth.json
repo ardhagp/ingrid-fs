@@ -32,6 +32,8 @@
   "mobileTopRow": 111,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Login & Register', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 12,
+  "originalTopRow": 8,
   "parentColumnSpace": 19.5,
   "parentId": "83ywa8urlu",
   "parentRowSpace": 10,

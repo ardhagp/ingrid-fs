@@ -34,6 +34,8 @@
   "mobileTopRow": 13,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Scan QR Code', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 20,
+  "originalTopRow": 16,
   "parentColumnSpace": 18.875,
   "parentId": "4ltduszulj",
   "parentRowSpace": 10,

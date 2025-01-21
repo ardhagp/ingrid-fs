@@ -37,6 +37,8 @@
   "mobileTopRow": 112,
   "needsErrorInfo": false,
   "onClick": "{{storeValue(\"Employee\",{\"IsLoggedIn\": false,\"IsLoggedOut\":true, \"UserID\": \"\"})}}",
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
   "parentColumnSpace": 19.5,
   "parentId": "83ywa8urlu",
   "parentRowSpace": 10,
