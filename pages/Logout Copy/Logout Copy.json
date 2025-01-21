@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_780dae86-5643-40ce-9b32-e7ebdf09f792",
+  "gitSyncId": "665b481e330df209a50be134_0224c36c-e155-4c3e-95e2-9bb77d0d4803",
   "unpublishedPage": {
     "customSlug": "authorization",
     "isHidden": true,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Logout",
-    "slug": "logout"
+    "name": "Logout Copy",
+    "slug": "logout-copy"
   }
 }
