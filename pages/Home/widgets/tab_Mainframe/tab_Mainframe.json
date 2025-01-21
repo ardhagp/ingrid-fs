@@ -164,9 +164,6 @@
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "isVisible"
-    },
-    {
       "key": "tabsObj.tabpqn18l1bxh.isVisible"
     }
   ],
@@ -174,7 +171,7 @@
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
-  "isVisible": "",
+  "isVisible": true,
   "key": "48sk81nba3",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
