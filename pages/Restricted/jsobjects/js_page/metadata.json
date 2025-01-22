@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "665b481e330df209a50be134_864059b2-1f1a-45bc-a24f-e2aa11bf3ba0",
+  "id": "Restricted_js_page",
+  "unpublishedCollection": {
+    "name": "js_page",
+    "pageId": "Restricted",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

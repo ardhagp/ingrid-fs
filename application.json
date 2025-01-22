@@ -32,6 +32,10 @@
   "icon": "package",
   "pages": [
     {
+      "id": "Startup",
+      "isDefault": true
+    },
+    {
       "id": "Home",
       "isDefault": false
     },
@@ -68,8 +72,8 @@
       "isDefault": false
     },
     {
-      "id": "Startup",
-      "isDefault": true
+      "id": "Restricted",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
