@@ -1,12 +1,13 @@
 {
   "gitSyncId": "665b481e330df209a50be134_e2817e64-1427-4aa6-a598-bb291fff49a8",
   "unpublishedPage": {
+    "customSlug": "debug-page",
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1270,
+          "bottomRow": 1410,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,

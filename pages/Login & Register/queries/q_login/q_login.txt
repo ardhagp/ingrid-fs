@@ -1,1 +1,1 @@
-SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee.UserID}}' AND employee_password_web = '{{appsmith.store.Employee.UserPassword}}'
+SELECT *, if(wsp_employee.employee_isadmin=-1,'true','false') as employee_isadmin_boolean FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee.UserID}}' AND employee_password_web = '{{appsmith.store.Employee.UserPassword}}'

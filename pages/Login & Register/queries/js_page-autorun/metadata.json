@@ -1,6 +1,6 @@
 {
   "gitSyncId": "665b481e330df209a50be134_08d91124-8a01-4084-b219-f174accd49a8",
-  "id": "Login & Register_js_page.f_autorun",
+  "id": "Login & Register_js_page.autorun",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": true,
-    "fullyQualifiedName": "js_page.f_autorun",
-    "name": "f_autorun",
+    "fullyQualifiedName": "js_page.autorun",
+    "name": "autorun",
     "pageId": "Login & Register",
     "userSetOnLoad": true
   }

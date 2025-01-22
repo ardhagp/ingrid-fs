@@ -56,7 +56,7 @@
       "isDisabled": false,
       "isVisible": "{{appsmith.store.Employee.IsLoggedOut}}",
       "label": "Login / Register",
-      "onClick": "{{navigateTo('Login & Register', {}, 'SAME_WINDOW');}}",
+      "onClick": "{{navigateTo('Login & Register', {}, 'SAME_WINDOW').then(() => {});}}",
       "widgetId": ""
     },
     "menuItem2": {

@@ -33,14 +33,30 @@
   "pages": [
     {
       "id": "Startup",
-      "isDefault": true
-    },
-    {
-      "id": "Home",
       "isDefault": false
     },
     {
-      "id": "Materials",
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "My Profiles",
+      "isDefault": false
+    },
+    {
+      "id": "Login & Register",
+      "isDefault": false
+    },
+    {
+      "id": "Login Success",
+      "isDefault": false
+    },
+    {
+      "id": "Logout",
+      "isDefault": false
+    },
+    {
+      "id": "Debug Page",
       "isDefault": false
     },
     {
@@ -53,22 +69,6 @@
     },
     {
       "id": "Pre Delivery Notification",
-      "isDefault": false
-    },
-    {
-      "id": "Login Success",
-      "isDefault": false
-    },
-    {
-      "id": "Debug Page",
-      "isDefault": false
-    },
-    {
-      "id": "Login & Register",
-      "isDefault": false
-    },
-    {
-      "id": "Logout",
       "isDefault": false
     },
     {

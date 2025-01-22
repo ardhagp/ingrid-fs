@@ -26,7 +26,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "rurszsqjpn",
-  "label": "SLOC",
+  "label": "Employee.SLOC",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",

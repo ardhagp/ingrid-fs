@@ -1,7 +1,7 @@
 {
   "gitSyncId": "665b481e330df209a50be134_695ac195-d3c5-49e0-9821-5ef2a13fbc1c",
   "unpublishedPage": {
-    "customSlug": "materials",
+    "customSlug": "my-profiles",
     "isHidden": true,
     "layouts": [
       {
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Materials",
-    "slug": "materials"
+    "name": "My Profiles",
+    "slug": "my-profiles"
   }
 }
