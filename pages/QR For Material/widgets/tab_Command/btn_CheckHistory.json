@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 23,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
@@ -11,26 +11,23 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "mv9lui5lcv",
+  "key": "t7n96sxzxs",
   "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 21,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 17,
+  "mobileBottomRow": 75,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 58,
+  "mobileTopRow": 71,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('My Profiles', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 9.1875,
-  "parentId": "xn9bmc2lgo",
+  "originalBottomRow": 23,
+  "originalTopRow": 19,
+  "parentColumnSpace": 19.5,
+  "parentId": "0gs357shas",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -38,10 +35,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "My Profile",
-  "topRow": 17,
+  "text": "Check Material History",
+  "topRow": 19,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "vlgijdzxaj",
-  "widgetName": "btn_Profile"
+  "widgetId": "edapbu7vex",
+  "widgetName": "btn_CheckHistory"
 }

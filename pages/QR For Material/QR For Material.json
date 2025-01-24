@@ -7,7 +7,7 @@
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 840,
+          "bottomRow": 720,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Scan QR Code",
-    "slug": "scan-qr-code"
+    "name": "QR For Material",
+    "slug": "qr-for-material"
   }
 }

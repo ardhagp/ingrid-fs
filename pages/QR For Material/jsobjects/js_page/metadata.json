@@ -1,9 +1,9 @@
 {
   "gitSyncId": "665b481e330df209a50be134_fbfd8ec2-fd84-4537-a869-e19cca280e57",
-  "id": "Scan QR Code_js_page",
+  "id": "QR For Material_js_page",
   "unpublishedCollection": {
     "name": "js_page",
-    "pageId": "Scan QR Code",
+    "pageId": "QR For Material",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "variables": []
