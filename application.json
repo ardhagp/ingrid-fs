@@ -74,6 +74,10 @@
     {
       "id": "Restricted",
       "isDefault": false
+    },
+    {
+      "id": "About",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

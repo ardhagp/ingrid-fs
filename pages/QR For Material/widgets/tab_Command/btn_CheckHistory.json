@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +28,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 71,
   "needsErrorInfo": false,
+  "onClick": "{{js_page.scanner_QRCodeonCodeDetected();}}",
   "originalBottomRow": 23,
   "originalTopRow": 19,
   "parentColumnSpace": 19.5,
