@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 55,
+  "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 450,
+      "bottomRow": 400,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 450,
+      "bottomRow": 400,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -113,7 +113,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "FIXED",
+  "dynamicHeight": "AUTO_HEIGHT",
   "dynamicPropertyPathList": [
     {
       "key": "tabsObj.tabl5ylaxrj14.isVisible"
@@ -130,13 +130,15 @@
   "key": "a1lvb5tevz",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
-  "minDynamicHeight": 15,
+  "minDynamicHeight": 10,
   "minWidth": 450,
   "mobileBottomRow": 27,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 25,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
+  "originalBottomRow": 55,
+  "originalTopRow": 6,
   "parentColumnSpace": 19.5,
   "parentId": "0",
   "parentRowSpace": 10,

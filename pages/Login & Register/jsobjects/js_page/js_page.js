@@ -26,7 +26,7 @@ export default {
 			navigateTo('Login Success');
 		} else if (q_login.data.length===0) {
 			txt_Result.setVisibility(true);
-			txt_Result.setText('Login Gagal!');
+			txt_Result.setText('⚠️ Failed to Login! <br />Incorrect User ID or Password.<br />Please try again.');
 			//console.log(q_login.data.length);
 
 			await storeValue("Employee",{"IsLoggedIn": false, "IsLoggedOut": true,"IsAdminBoolean":false});

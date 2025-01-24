@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -50,7 +50,7 @@
   "shouldAllowAutofill": false,
   "showStepArrows": false,
   "tooltip": "The material will be added to active REG. ID below.",
-  "topRow": 5,
+  "topRow": 4,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
   "widgetId": "wqik0j7goa",

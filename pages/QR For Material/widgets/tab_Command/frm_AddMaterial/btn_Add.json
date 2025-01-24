@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 24,
+  "bottomRow": 23,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -37,7 +37,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 61,
   "text": "Add",
-  "topRow": 20,
+  "topRow": 19,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "5da58sr744",
