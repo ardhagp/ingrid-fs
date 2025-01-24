@@ -47,7 +47,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Materials",
+      "tabName": "MATERIALS",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -93,7 +93,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "User Access",
+      "tabName": "USER ACCESS",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -138,7 +138,7 @@
       "responsiveBehavior": "fill",
       "rightColumn": 1248,
       "tabId": "tabpqn18l1bxh",
-      "tabName": "Developer",
+      "tabName": "DEVELOPER",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -240,7 +240,7 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Materials",
+      "label": "MATERIALS",
       "positioning": "vertical",
       "widgetId": "shwzibkuvn"
     },
@@ -248,7 +248,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "User Access",
+      "label": "USER ACCESS",
       "positioning": "vertical",
       "widgetId": "r7bzfj8rcg"
     },
@@ -263,7 +263,7 @@
       "id": "tabpqn18l1bxh",
       "index": 2,
       "isVisible": "{{appsmith.store.Employee.IsAdminBoolean}}",
-      "label": "Developer",
+      "label": "DEVELOPER",
       "widgetId": "ef26m35i8w"
     }
   },
