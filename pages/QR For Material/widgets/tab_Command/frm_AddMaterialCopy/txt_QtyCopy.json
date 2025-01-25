@@ -16,7 +16,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
-  "errorMessage": "Please enter qty, at least 1",
+  "errorMessage": "Please enter total qty, at least 1",
   "iconAlign": "left",
   "inputType": "NUMBER",
   "isDisabled": false,
@@ -24,7 +24,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "6lkpk6ymns",
-  "label": "QTY",
+  "label": "TOTAL QTY",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -41,7 +41,7 @@
   "mobileTopRow": 12,
   "needsErrorInfo": false,
   "parentColumnSpace": 8.875,
-  "parentId": "wx1lcdpkri",
+  "parentId": "y172a51y09",
   "parentRowSpace": 10,
   "placeholderText": "",
   "renderMode": "CANVAS",
@@ -53,6 +53,6 @@
   "topRow": 11,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "jvo91gf6kl",
-  "widgetName": "txt_Qty"
+  "widgetId": "m7h2n9lvls",
+  "widgetName": "txt_QtyCopy"
 }
