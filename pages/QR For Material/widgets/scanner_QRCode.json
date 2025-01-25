@@ -41,7 +41,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "scannerLayout": "CLICK_TO_SCAN",
+  "scannerLayout": "ALWAYS_ON",
   "topRow": 6,
   "type": "CODE_SCANNER_WIDGET",
   "version": 1,
