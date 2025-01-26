@@ -16,10 +16,9 @@ export default {
 	},
 	async f_ExtractString(){
 		try{
-			const QRResultString = await appsmith.store.QR_Material.QRResult;
-			lbl_QRResult.setText("QRResult : " + QRResultString);
-			
+			const QRResultString = await appsmith.store.QR_Material.QRResult;			
 			const SplittedText = QRResultString.split("\\");
+			
 			await storeValue("QR_Material",{"MIAP":SplittedText[0],"DCD":SplittedText[1],"VT":SplittedText[2],"MT":SplittedText[3],"MC":SplittedText[4],"PLANT":SplittedText[5],"SLOC":SplittedText[6],"REGID":SplittedText[7],"PUBLISH":SplittedText[8]});
 			
 			//await lbl_QRResult.setText("QR Result : " + QRResultString + "");
