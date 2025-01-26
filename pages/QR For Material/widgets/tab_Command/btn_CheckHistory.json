@@ -28,7 +28,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 71,
   "needsErrorInfo": false,
-  "onClick": "{{js_page.f_manual();}}",
+  "onClick": "{{js_page.f_ExtractString();}}",
   "originalBottomRow": 28,
   "originalTopRow": 24,
   "parentColumnSpace": 19.5,
