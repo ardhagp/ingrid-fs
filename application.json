@@ -52,6 +52,10 @@
       "isDefault": false
     },
     {
+      "id": "Restricted",
+      "isDefault": false
+    },
+    {
       "id": "Logout",
       "isDefault": false
     },
@@ -84,7 +88,11 @@
       "isDefault": false
     },
     {
-      "id": "Restricted",
+      "id": "User Access",
+      "isDefault": false
+    },
+    {
+      "id": "Modules",
       "isDefault": false
     },
     {
