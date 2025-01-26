@@ -1,6 +1,6 @@
 export default {
 	f_manual(){
-			lbl_QRResult.setText("StoreResult : " + appsmith.store.QR_Material.MIAP);
+			lbl_QRResult.setText("QR Result : " + appsmith.store.QR_Material.QRResult + "");
 	},
 	scanner_QRCodeonCodeDetected () {
 		try{
@@ -17,7 +17,7 @@ export default {
 			lbl_RegID.setText("REG. ID : <p style=color:red>" + SplittedText[7] + "</p>");
 			lbl_PublishCode.setText("PUBLISH : <p style=color:red>" + SplittedText[8] + "</P>");
 			storeValue("QR_Material",{"MIAP":SplittedText[0],"DCD":SplittedText[1],"VT":SplittedText[2],"MT":SplittedText[3],"MC":SplittedText[4],"PLANT":SplittedText[5],"SLOC":SplittedText[6],"REGID":SplittedText[7],"PUBLISH":SplittedText[8]});
-			lbl_QRResult.setText("StoreResult : " + appsmith.store.QR_Material.MIAP);
+			lbl_QRResult.setText("QRResult : " + QRText);
 		}catch(error){
 			console.log(error);
 		}
