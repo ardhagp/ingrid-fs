@@ -1,10 +1,14 @@
 export default {
+	f_manual(){
+			lbl_QRResult.setText("StoreResult : " + appsmith.store.QR_Material.MIAP);
+	},
 	scanner_QRCodeonCodeDetected () {
 		try{
 			//QR Code format = "MIAPCODE\\DCDCODE\\VALTYPE\\MATERIALTYPE\\PLANT\\SLOC\\REGID\\PUBLISHCODE"
 			//let QRText = "493NAW0000196S\\A-2022-00004#0030\\2\\DCD\\GEN\\IMB1\\1MB1\\-\\-"
 			const QRText = scanner_QRCode.value;
-			const SplittedText = await QRText.split("\\");
+			const SplittedText = QRText.split("\\");
+			storeValue("QR_Material",{"QRResult":QRText});
 			lbl_QRResult.setText("QR Result : " + QRText + "");
 			lbl_MIAPCODE.setText("MIAP CODE : <p style=color:red>" + SplittedText[0] + "</p>");
 			lbl_DCDCODE.setText("DCD CODE : <p style=color:red>" + SplittedText[1] + "</p>");
