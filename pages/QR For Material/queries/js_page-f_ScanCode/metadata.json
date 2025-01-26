@@ -1,6 +1,6 @@
 {
   "gitSyncId": "665b481e330df209a50be134_855ece6f-0087-4902-8bb1-86ba25191614",
-  "id": "QR For Material_js_page.scanner_QRCodeonCodeDetected",
+  "id": "QR For Material_js_page.f_ScanCode",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -24,8 +24,8 @@
       }
     ],
     "executeOnLoad": false,
-    "fullyQualifiedName": "js_page.scanner_QRCodeonCodeDetected",
-    "name": "scanner_QRCodeonCodeDetected",
+    "fullyQualifiedName": "js_page.f_ScanCode",
+    "name": "f_ScanCode",
     "pageId": "QR For Material",
     "userSetOnLoad": false
   }

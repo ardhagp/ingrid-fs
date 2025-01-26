@@ -31,7 +31,7 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onCodeDetected": "{{js_page.scanner_QRCodeonCodeDetected();}}",
+  "onCodeDetected": "{{js_page.f_ScanCode();\njs_page.f_ExtractString();}}",
   "originalBottomRow": 54,
   "originalTopRow": 21,
   "parentColumnSpace": 19.5,
