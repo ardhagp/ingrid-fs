@@ -28,7 +28,7 @@
       "index": 0,
       "isDisabled": false,
       "isVisible": true,
-      "label": "First Menu Item",
+      "label": "Stock",
       "widgetId": ""
     },
     "menuItem2": {
@@ -36,7 +36,7 @@
       "index": 1,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Second Menu Item",
+      "label": "Movement History",
       "widgetId": ""
     },
     "menuItem3": {
@@ -44,7 +44,7 @@
       "index": 2,
       "isDisabled": false,
       "isVisible": true,
-      "label": "Third Menu Item",
+      "label": "Bulk Request",
       "widgetId": ""
     }
   },
