@@ -11,6 +11,7 @@ export default {
 			
 		}catch(error){
 			console.log(error);
+			showAlert('Error');
 		}
 	},
 	async f_ExtractString(){
