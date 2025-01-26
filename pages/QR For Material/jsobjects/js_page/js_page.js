@@ -23,7 +23,7 @@ export default {
 			
 			await lbl_QRResult.setText("QR Result : " + QRResultString + "");
 			await lbl_MIAPCODE.setText("MIAP CODE : <p style=color:red>" + SplittedText[0] + "</p>");
-			await lbl_DCDCODE.setText("DCD CODE : <p style=color:red>" + SplittedText[1] + "</p>");
+			await lbl_DCDCODE.setText("DCD CODE : <p style=color:red>" + appsmith.store.QR_Material.DCD + "</p>");
 			await lbl_val_mattype.setText("VT / MT / MC: <p style=color:red>" + SplittedText[2] + " / " + SplittedText[3] + " / " + SplittedText[4] + "</p>");
 			await lbl_PLAN_SLOC.setText("PLANT / SLOC : <p style=color:red>" + SplittedText[5] + " / " + SplittedText[6] + "</p>");
 			await lbl_RegID.setText("REG. ID : <p style=color:red>" + SplittedText[7] + "</p>");
