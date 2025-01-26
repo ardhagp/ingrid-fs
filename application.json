@@ -56,6 +56,18 @@
       "isDefault": false
     },
     {
+      "id": "Summary Incoming",
+      "isDefault": false
+    },
+    {
+      "id": "Summary Outgoing",
+      "isDefault": false
+    },
+    {
+      "id": "Summary NCR",
+      "isDefault": false
+    },
+    {
       "id": "Debug Page",
       "isDefault": false
     },

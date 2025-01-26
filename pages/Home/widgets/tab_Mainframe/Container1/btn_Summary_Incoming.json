@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 8,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -14,24 +14,27 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "book",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "t7n96sxzxs",
+  "key": "pdpr11vgz7",
   "leftColumn": 0,
   "minWidth": 120,
-  "mobileBottomRow": 60,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 56,
+  "mobileBottomRow": 8,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 12,
-  "originalTopRow": 8,
-  "parentColumnSpace": 19.5,
+  "onClick": "{{navigateTo('Summary Incoming', {}, 'SAME_WINDOW');}}",
+  "parentColumnSpace": 8.875,
   "parentId": "t5l6kux8ag",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -40,10 +43,10 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Outgoing",
-  "topRow": 8,
+  "text": "Incoming",
+  "topRow": 4,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "yduqmabbgn",
-  "widgetName": "btn_Outgoing"
+  "widgetId": "3mrcezambi",
+  "widgetName": "btn_Summary_Incoming"
 }

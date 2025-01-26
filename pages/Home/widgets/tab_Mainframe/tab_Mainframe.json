@@ -93,7 +93,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "USER ACCESS",
+      "tabName": "SYSTEM & ACCESS",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -191,7 +191,7 @@
       "widgetName": "Canvas11"
     }
   ],
-  "defaultTab": "Materials",
+  "defaultTab": "MATERIALS",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -248,7 +248,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "USER ACCESS",
+      "label": "SYSTEM & ACCESS",
       "positioning": "vertical",
       "widgetId": "r7bzfj8rcg"
     },

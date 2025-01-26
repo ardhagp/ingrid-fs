@@ -1,24 +1,24 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_1ce6c555-9ff1-4c15-b2b4-12689d6597b1",
+  "gitSyncId": "665b481e330df209a50be134_5f7db7ef-db04-44d8-b3ef-a7a5a2a403d2",
   "unpublishedPage": {
-    "customSlug": "home",
+    "customSlug": "summary-ncr",
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 940,
+          "bottomRow": 480,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 780,
+          "minHeight": 490,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 76,
+          "snapRows": 47,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 91,
@@ -27,7 +27,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Summary NCR",
+    "slug": "summary-ncr"
   }
 }
