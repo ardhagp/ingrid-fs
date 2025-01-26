@@ -19,6 +19,7 @@ export default {
 			lbl_QRResult.setText("QRResult : " + QRResultString);
 			
 			const SplittedText = QRResultString.split("\\");
+			await storeValue("QR_Material",{"MIAP":SplittedText[0],"DCD":SplittedText[1],"VT":SplittedText[2],"MT":SplittedText[3],"MC":SplittedText[4],"PLANT":SplittedText[5],"SLOC":SplittedText[6],"REGID":SplittedText[7],"PUBLISH":SplittedText[8]});
 			
 			await lbl_QRResult.setText("QR Result : " + QRResultString + "");
 			await lbl_MIAPCODE.setText("MIAP CODE : <p style=color:red>" + SplittedText[0] + "</p>");
@@ -27,7 +28,6 @@ export default {
 			await lbl_PLAN_SLOC.setText("PLANT / SLOC : <p style=color:red>" + SplittedText[5] + " / " + SplittedText[6] + "</p>");
 			await lbl_RegID.setText("REG. ID : <p style=color:red>" + SplittedText[7] + "</p>");
 			await lbl_PublishCode.setText("PUBLISH : <p style=color:red>" + SplittedText[8] + "</P>");
-			storeValue("QR_Material",{"MIAP":SplittedText[0],"DCD":SplittedText[1],"VT":SplittedText[2],"MT":SplittedText[3],"MC":SplittedText[4],"PLANT":SplittedText[5],"SLOC":SplittedText[6],"REGID":SplittedText[7],"PUBLISH":SplittedText[8]});
 		}catch(error){
 			console.log(error);
 		}
