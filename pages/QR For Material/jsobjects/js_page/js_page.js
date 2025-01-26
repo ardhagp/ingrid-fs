@@ -1,6 +1,7 @@
 export default {
 	f_manual(){
-		lbl_QRResult.setText("QR Result : " + appsmith.store.QR_Material.QRResult + "");
+		lbl_QRResult.setText("DCD:" + appsmith.store.QR_Material.DCD);
+		console.log(appsmith.store.QR_Material.DCD);
 	},
 	f_ScanCode () {
 		try{
