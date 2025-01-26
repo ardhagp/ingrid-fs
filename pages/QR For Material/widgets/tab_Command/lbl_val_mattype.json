@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "VAL / MT : <p style=color:red>{{appsmith.store.QR_Material.VT}} / {{appsmith.store.QR_Material.MT}} / {{appsmith.store.QR_Material.MC}}</p>",
+  "text": "VAL / MT / MC : <p style=color:red>{{appsmith.store.QR_Material.VT}} / {{appsmith.store.QR_Material.MT}} / {{appsmith.store.QR_Material.MC}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,
