@@ -6,8 +6,8 @@ export default {
 	f_ScanCode () {
 		try{
 			//QR Code format = "MIAPCODE\\DCDCODE\\VALTYPE\\MATERIALTYPE\\PLANT\\SLOC\\REGID\\PUBLISHCODE"
-			let QRText = "493NAW0000196S\\A-2022-00004#0030\\2\\DCD\\GEN\\IMB1\\1MB1\\-\\-"
-			//const QRText = scanner_QRCode.value;
+			//let QRText = "493NAW0000196S\\A-2022-00004#0030\\2\\DCD\\GEN\\IMB1\\1MB1\\-\\-"
+			const QRText = scanner_QRCode.value;
 			storeValue("QR_Material",{"QRResult":QRText});
 			
 		}catch(error){
