@@ -54,7 +54,7 @@
       "widgetName": "Canvas6"
     }
   ],
-  "defaultTab": "{{appsmith.store.AppSettings.Authorization_Tab_Default}}",
+  "defaultTab": "Please Confirm",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -67,9 +67,6 @@
     },
     {
       "key": "tabsObj.tabl5ylaxrj14.isVisible"
-    },
-    {
-      "key": "defaultTab"
     }
   ],
   "dynamicHeight": "FIXED",

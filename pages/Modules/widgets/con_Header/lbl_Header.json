@@ -32,19 +32,19 @@
   "needsErrorInfo": false,
   "overflow": "NONE",
   "parentColumnSpace": 19.1875,
-  "parentId": "mb7jr5c8ss",
+  "parentId": "j01hy29suh",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "shouldTruncate": false,
-  "text": "QR For Material",
+  "text": "Modules",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "5dsu4mmz96",
-  "widgetName": "lbl_ScanME"
+  "widgetId": "oz8pocw87r",
+  "widgetName": "lbl_Header"
 }
