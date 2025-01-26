@@ -12,6 +12,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onCodeDetected"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onCodeDetected"
@@ -31,7 +36,7 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onCodeDetected": "{{js_page.f_ScanCode();\njs_page.f_ExtractString();}}",
+  "onCodeDetected": "{{js_page.f_ScanCode();\njs_page.f_ExtractString()}}",
   "originalBottomRow": 54,
   "originalTopRow": 21,
   "parentColumnSpace": 19.5,
