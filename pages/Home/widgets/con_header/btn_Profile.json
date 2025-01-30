@@ -11,13 +11,13 @@
       "key": "borderRadius"
     },
     {
-      "key": "menuItems.menuItem1.isVisible"
-    },
-    {
       "key": "menuItems.menuItem3.isVisible"
     },
     {
       "key": "menuItems.menuItem2.isVisible"
+    },
+    {
+      "key": "menuItems.menuItem1.isVisible"
     }
   ],
   "dynamicPropertyPathList": [
@@ -58,7 +58,7 @@
       "index": 0,
       "isDisabled": false,
       "isVisible": "{{appsmith.store.Employee.IsLoggedOut}}",
-      "label": "Login / Register",
+      "label": "Login & Register",
       "onClick": "{{navigateTo('Login & Register', {}, 'SAME_WINDOW').then(() => {});}}",
       "widgetId": ""
     },

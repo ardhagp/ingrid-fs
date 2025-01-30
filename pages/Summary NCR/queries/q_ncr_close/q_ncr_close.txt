@@ -1,0 +1,1 @@
+SELECT * FROM mat_movement_ncr as `ncr` WHERE ncr_ncritemstatus = 'Close';

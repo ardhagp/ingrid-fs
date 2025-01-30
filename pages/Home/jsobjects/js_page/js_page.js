@@ -1,11 +1,11 @@
 export default {
 	async autorun () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
-		if (appsmith.store.AppSettings.IsFirstVisit!=false) {
-			showModal('mod_Home');
-			setTimeout(()=> {closeModal('mod_Home'),10000});
-			{{storeValue("AppSettings",{"IsFirstVisit": false})}}
+		let varIsLoggedIn=(appsmith.store.Employee.IsLoggedIn===true)?true:false;
+		
+		if (varIsLoggedIn==true){
+			storeValue("Employee",{"IsLoggedIn":true,"IsLoggedOut":false})
+		} else {
+			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true})
 		}
 	}
 }

@@ -1,0 +1,11 @@
+/* SELECT concat('KILL ',id,';') as query FROM information_schema.processlist WHERE Command = 'Sleep'; 
+
+SET @kill_sleeping_processes = (
+  SELECT GROUP_CONCAT(CONCAT('KILL ', ID, ';') SEPARATOR ' ') KillQuery
+  FROM information_schema.PROCESSLIST
+  WHERE COMMAND = 'Sleep'
+);
+
+PREPARE stmt FROM @kill_sleeping_processes;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt; */
