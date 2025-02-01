@@ -1,11 +1,11 @@
 export default {
 	async autorun () {
-		let varIsLoggedIn=(appsmith.store.Employee.IsLoggedIn===true)?true:false;
-		
-		if (varIsLoggedIn==true){
-			storeValue("Employee",{"IsLoggedIn":true,"IsLoggedOut":false})
-		} else {
-			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true})
+		let varIsLoggedIn=appsmith.store.Employee.IsLoggedIn;
+
+		if (!varIsLoggedIn){
+			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true});
 		}
+		
+		return appsmith.store.Employee.IsLoggedIn;
 	}
 }
