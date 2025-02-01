@@ -101,7 +101,7 @@
       "widgetName": "Canvas3"
     }
   ],
-  "defaultTab": "Tab 1",
+  "defaultTab": "My Information",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
