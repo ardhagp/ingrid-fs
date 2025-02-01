@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 11,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{q_ncr_summary.data[0].ncr_open}}<p style=font-size:30px>Open</p>",
+  "text": "{{q_ncr_summary.data[0].ncr_open}}<p style=font-size:15px>Open</p>",
   "textAlign": "CENTER",
   "textColor": "#ffffff",
   "topRow": 0,

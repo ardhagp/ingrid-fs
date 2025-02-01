@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 14,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{q_ncr_summary.data[0].ncr_avg}}<p style=font-size:30px>Avg Day(s)</p>",
+  "text": "{{q_ncr_summary.data[0].ncr_avg}}<p style=font-size:15px>Avg Day(s)</p>",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 0,

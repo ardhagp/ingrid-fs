@@ -54,9 +54,10 @@
     "ncr_closingevidence",
     "ncr_closedby",
     "ncr_additionalnotes",
-    "ncr_att_link"
+    "ncr_att_link",
+    "ncr_dcd"
   ],
-  "columnUpdatedAt": 1738201194991,
+  "columnUpdatedAt": 1738453117659,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -150,6 +151,9 @@
     },
     {
       "key": "primaryColumns.ncr_att_link.computedValue"
+    },
+    {
+      "key": "primaryColumns.ncr_dcd.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -393,6 +397,40 @@
       "notation": "standard",
       "originalId": "ncr_closingnotes",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "ncr_dcd": {
+      "alias": "ncr_dcd",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{dgn_NCR_Open.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ncr_dcd\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "ncr_dcd",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ncr_dcd",
+      "notation": "standard",
+      "originalId": "ncr_dcd",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
