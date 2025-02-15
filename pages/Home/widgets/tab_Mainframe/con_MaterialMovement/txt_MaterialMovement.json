@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fef9c3",
-  "borderColor": "#fef9c3",
+  "backgroundColor": "#000000",
+  "borderColor": "#000000",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 4,
   "dynamicBindingPathList": [
@@ -44,7 +44,7 @@
   "shouldTruncate": false,
   "text": "Material Movements",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#ffffff",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

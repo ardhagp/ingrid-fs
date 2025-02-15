@@ -1,0 +1,51 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "buttonColor": "#fde047",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "application",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "t7n96sxzxs",
+  "leftColumn": 0,
+  "minWidth": 120,
+  "mobileBottomRow": 63,
+  "mobileLeftColumn": 14,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 59,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Summary NCR', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 16,
+  "originalTopRow": 12,
+  "parentColumnSpace": 19.5,
+  "parentId": "8ke5uny4ua",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Other",
+  "topRow": 12,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8tchwjjmxd",
+  "widgetName": "btn_SA_ModuleOther"
+}

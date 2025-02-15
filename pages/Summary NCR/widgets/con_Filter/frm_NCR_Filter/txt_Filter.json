@@ -41,7 +41,7 @@
   "parentColumnSpace": 8.875,
   "parentId": "hvdplo6a7c",
   "parentRowSpace": 10,
-  "placeholderText": "MIAP Code / Material Name / Contractor Name",
+  "placeholderText": "MIAP or DCD Code / Material / Contractor",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",

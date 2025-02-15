@@ -42,7 +42,7 @@
   "shouldTruncate": false,
   "text": "Contractor",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#ffffff",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

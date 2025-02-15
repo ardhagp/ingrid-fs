@@ -99,6 +99,51 @@
       "version": 1,
       "widgetId": "mvj7crqpqa",
       "widgetName": "Canvas3"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 450,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "oeyx2gpj9m",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 490,
+      "minWidth": 450,
+      "mobileBottomRow": 491,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1248,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "t5eodj4qg7",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1248,
+      "tabId": "tabvmzsl8bwla",
+      "tabName": "My Access",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "4ogixomzdh",
+      "widgetName": "Canvas4"
     }
   ],
   "defaultTab": "My Information",
@@ -141,6 +186,7 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "My Information",
       "positioning": "vertical",
@@ -148,11 +194,20 @@
     },
     "tab2": {
       "id": "tab2",
-      "index": 1,
+      "index": 2,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "Change Password",
       "positioning": "vertical",
       "widgetId": "mvj7crqpqa"
+    },
+    "tabvmzsl8bwla": {
+      "id": "tabvmzsl8bwla",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "My Access",
+      "widgetId": "4ogixomzdh"
     }
   },
   "topRow": 6,
