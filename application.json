@@ -96,6 +96,10 @@
       "isDefault": false
     },
     {
+      "id": "Module Access",
+      "isDefault": false
+    },
+    {
       "id": "About",
       "isDefault": false
     }

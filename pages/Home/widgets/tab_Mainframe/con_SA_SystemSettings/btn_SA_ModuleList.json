@@ -30,7 +30,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Summary Incoming', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Modules', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 8.875,
   "parentId": "8ke5uny4ua",
   "parentRowSpace": 10,

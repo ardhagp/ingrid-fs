@@ -58,7 +58,9 @@
     "ncr_dcd"
   ],
   "columnUpdatedAt": 1738453117659,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "ncr_materialname": 249
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
