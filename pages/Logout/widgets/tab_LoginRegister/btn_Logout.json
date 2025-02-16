@@ -30,7 +30,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "onClick": "{{js_page.f_logout();}}",
+  "onClick": "{{js_button.f_btn_Logout();}}",
   "originalBottomRow": 9,
   "originalTopRow": 5,
   "parentColumnSpace": 19.1875,

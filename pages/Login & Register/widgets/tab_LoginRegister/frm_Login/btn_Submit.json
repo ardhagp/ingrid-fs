@@ -32,7 +32,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{js_page.f_login();}}",
+  "onClick": "{{js_button.f_btn_login();}}",
   "originalBottomRow": 31,
   "originalTopRow": 27,
   "parentId": "l4nn5xtcw5",

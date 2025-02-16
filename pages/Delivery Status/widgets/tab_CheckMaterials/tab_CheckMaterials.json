@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 52,
+  "bottomRow": 54,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 320,
+      "bottomRow": 340,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -47,7 +47,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Delivery Details",
+      "tabName": "DELIVERY DETAIL",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -93,7 +93,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "Material List",
+      "tabName": "MATERIAL LIST",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -101,7 +101,7 @@
       "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "Contractor Details",
+  "defaultTab": "DELIVERY DETAIL",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -130,7 +130,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "originalBottomRow": 52,
+  "originalBottomRow": 53,
   "originalTopRow": 16,
   "parentColumnSpace": 19.5,
   "parentId": "0",
@@ -145,7 +145,7 @@
       "id": "tab1",
       "index": 0,
       "isVisible": true,
-      "label": "Delivery Details",
+      "label": "DELIVERY DETAIL",
       "positioning": "vertical",
       "widgetId": "z0bj2ch2ij"
     },
@@ -153,7 +153,7 @@
       "id": "tab2",
       "index": 1,
       "isVisible": true,
-      "label": "Material List",
+      "label": "MATERIAL LIST",
       "positioning": "vertical",
       "widgetId": "yodgedqkmj"
     }

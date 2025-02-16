@@ -33,7 +33,7 @@
   "mobileRightColumn": 58,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Delivery Status', {\n  \"REGID\": inp_RegID.text,\n  \"PUBLISH\": inp_PublishCode.text\n}, 'SAME_WINDOW');\nq_Material_Find.run();\nq_Material_Find_Contractor.run();}}",
+  "onClick": "{{js_button.f_btn_Find();}}",
   "parentColumnSpace": 9.5,
   "parentId": "e3drdppyoc",
   "parentRowSpace": 10,

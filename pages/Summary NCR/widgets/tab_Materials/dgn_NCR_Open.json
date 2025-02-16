@@ -37,6 +37,7 @@
     "ncr_mtxid",
     "ncr_no",
     "ncr_miap",
+    "ncr_dcd",
     "ncr_materialname",
     "ncr_pn",
     "ncr_reason",
@@ -54,12 +55,16 @@
     "ncr_closingevidence",
     "ncr_closedby",
     "ncr_additionalnotes",
-    "ncr_att_link",
-    "ncr_dcd"
+    "ncr_att_link"
   ],
-  "columnUpdatedAt": 1738453117659,
+  "columnUpdatedAt": 1739687931244,
   "columnWidthMap": {
-    "ncr_materialname": 249
+    "ncr_deliveredremarks": 296,
+    "ncr_materialname": 249,
+    "ncr_mtxid": 318,
+    "ncr_pn": 414,
+    "ncr_qty": 76,
+    "ncr_uom": 86
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -428,7 +433,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "ncr_dcd",
+      "label": "DCD CODE",
       "notation": "standard",
       "originalId": "ncr_dcd",
       "sticky": "",

@@ -46,7 +46,7 @@
       "responsiveBehavior": "fill",
       "rightColumn": 1248,
       "tabId": "tabl5ylaxrj14",
-      "tabName": "Please Confirm",
+      "tabName": "PLEASE CONFIRM",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -54,7 +54,7 @@
       "widgetName": "Canvas6"
     }
   ],
-  "defaultTab": "Please Confirm",
+  "defaultTab": "PLEASE CONFIRM",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -64,16 +64,10 @@
     },
     {
       "key": "boxShadow"
-    },
-    {
-      "key": "tabsObj.tabl5ylaxrj14.isVisible"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
-    {
-      "key": "tabsObj.tabl5ylaxrj14.isVisible"
-    },
     {
       "key": "tabsObj.tab2.isVisible"
     },
@@ -112,8 +106,8 @@
       "id": "tabl5ylaxrj14",
       "index": 0,
       "isDuplicateLabel": false,
-      "isVisible": "{{appsmith.store.AppSettings.Authorization_Tab_Logout_IsVisible}}",
-      "label": "Please Confirm",
+      "isVisible": true,
+      "label": "PLEASE CONFIRM",
       "widgetId": "l5swv7jptk"
     }
   },

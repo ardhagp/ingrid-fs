@@ -10,16 +10,9 @@
     },
     {
       "key": "image"
-    },
-    {
-      "key": "isVisible"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "isVisible"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
@@ -27,7 +20,7 @@
   "image": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data={{q_Material_Find_Contractor.data[0].mtx_att_link}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
-  "isVisible": "{{q_Material_Find_Contractor.data[0].mtx_isvisible}}",
+  "isVisible": true,
   "key": "35pav1heq4",
   "leftColumn": 41,
   "maxZoomLevel": 1,

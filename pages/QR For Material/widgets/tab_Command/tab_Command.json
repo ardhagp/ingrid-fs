@@ -47,7 +47,7 @@
       "rightColumn": 429,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Material Info.",
+      "tabName": "MATERIAL INFO.",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -146,7 +146,7 @@
       "widgetName": "Canvas6"
     }
   ],
-  "defaultTab": "Material Info.",
+  "defaultTab": "MATERIAL INFO.",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -190,7 +190,7 @@
       "index": 0,
       "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Material Info.",
+      "label": "MATERIAL INFO.",
       "positioning": "vertical",
       "widgetId": "0gs357shas"
     },

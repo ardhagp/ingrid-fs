@@ -33,7 +33,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 59,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Summary NCR', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{js_button.f_btn_SummaryNCR();}}",
   "originalBottomRow": 16,
   "originalTopRow": 12,
   "parentColumnSpace": 19.5,

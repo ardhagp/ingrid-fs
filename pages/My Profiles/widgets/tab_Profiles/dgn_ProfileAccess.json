@@ -37,6 +37,7 @@
   ],
   "columnUpdatedAt": 1739622971875,
   "columnWidthMap": {
+    "accesslevel_name": 145,
     "module_code": 269
   },
   "compactMode": "SHORT",
@@ -66,11 +67,23 @@
     },
     {
       "key": "primaryColumns.accesslevel_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.accesslevel_name.cellBackground"
+    },
+    {
+      "key": "primaryColumns.accesslevel_name.textColor"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.accesslevel_name.cellBackground"
+    },
+    {
+      "key": "primaryColumns.accesslevel_name.textColor"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -103,14 +116,14 @@
       "alias": "accesslevel_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{dgn_ProfileAccess.processedTableData.map((currentRow, currentIndex) => ( currentRow.accesslevel_name===\"NO ACCESS\" ? \"#FF0000\" : \"#00FF00\"))}}",
       "columnType": "text",
       "computedValue": "{{dgn_ProfileAccess.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"accesslevel_name\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "horizontalAlignment": "LEFT",
+      "horizontalAlignment": "CENTER",
       "id": "accesslevel_name",
       "index": 1,
       "isCellEditable": false,
@@ -125,6 +138,7 @@
       "notation": "standard",
       "originalId": "accesslevel_name",
       "sticky": "",
+      "textColor": "{{dgn_ProfileAccess.processedTableData.map((currentRow, currentIndex) => ( currentRow.accesslevel_name===\"NO ACCESS\" ? \"#FFFFFF\" : \"#000000\"))}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -21,13 +24,13 @@
   "isLoading": false,
   "isVisible": true,
   "key": "gdh6mopsv5",
-  "leftColumn": 1,
+  "leftColumn": 20,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 5,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 17,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 33,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
   "originalBottomRow": 5,
@@ -38,15 +41,15 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 20,
+  "rightColumn": 33,
   "shouldTruncate": false,
-  "text": "Reg. #",
-  "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "text": "{{appsmith.store.DeliveryStatus.RegID}}",
+  "textAlign": "RIGHT",
+  "textColor": "#ff0000",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "1icf56rs5t",
+  "widgetId": "s3a5z25hbd",
   "widgetName": "lbl_RegID"
 }

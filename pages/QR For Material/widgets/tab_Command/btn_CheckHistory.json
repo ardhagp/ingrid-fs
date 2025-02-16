@@ -39,7 +39,7 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "text": "Check Material History",
   "topRow": 20,
   "type": "BUTTON_WIDGET",

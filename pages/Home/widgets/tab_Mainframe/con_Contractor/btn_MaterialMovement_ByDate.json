@@ -30,7 +30,7 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Delivery Status', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{js_button.f_btn_DeliveryStatus();}}",
   "originalBottomRow": 8,
   "originalTopRow": 4,
   "parentColumnSpace": 19.1875,

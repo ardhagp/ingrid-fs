@@ -33,7 +33,7 @@
   "mobileRightColumn": 24,
   "mobileTopRow": 56,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Summary Outgoing', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{js_button.f_btn_SummaryOutgoing();}}",
   "originalBottomRow": 12,
   "originalTopRow": 8,
   "parentColumnSpace": 19.5,

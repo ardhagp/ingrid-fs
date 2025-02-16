@@ -47,7 +47,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab1",
-      "tabName": "Login",
+      "tabName": "LOGIN",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -93,7 +93,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "Register",
+      "tabName": "REGISTER",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -101,7 +101,7 @@
       "widgetName": "Canvas3"
     }
   ],
-  "defaultTab": "Login",
+  "defaultTab": "LOGIN",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -153,7 +153,7 @@
       "index": 0,
       "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Login",
+      "label": "LOGIN",
       "positioning": "vertical",
       "widgetId": "8jpoakumc0"
     },
@@ -162,7 +162,7 @@
       "index": 1,
       "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "Register",
+      "label": "REGISTER",
       "positioning": "vertical",
       "widgetId": "04l753jk2h"
     }

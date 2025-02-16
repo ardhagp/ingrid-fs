@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Is Admin :<p style=color:red> {{appsmith.store.Employee.IsAdminBoolean}}</p>",
+  "text": "Is Admin :<p style=color:red> {{(appsmith.store.Employee.IsAdminBoolean===true ? \"Yes\" : \"No\")}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 51,

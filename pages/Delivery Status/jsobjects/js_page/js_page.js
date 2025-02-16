@@ -1,16 +1,21 @@
 export default {
-autorun(){
-	try{
-		if (appsmith.store.Employee.IsLoggedIn==false || '') {
-			navigateTo('Authorization');
-			console.log(appsmith.store.UserID);
-			return appsmith.store.UserID;
-		} else {			
-			console.log(appsmith.store.Employee.UserID);
-			return appsmith.store.Employee.UserID;
+	async autorun(){
+		try{
+
+			let varIsLoggedIn = appsmith.store.Employee.IsLoggedIn;
+
+			if (!varIsLoggedIn||varIsLoggedIn===false) {
+				navigateTo('Login & Register',{},'SAME_WINDOW');
+			} else {
+				
+				let varRegID = appsmith.store.DeliveryStatus.RegID;
+
+				if(!varRegID){
+					storeValue("DeliveryStatus",{"RegID":"","Contractor":"-","DateDelivery":"-","Manifest":"-","DateReceived":"-","URL":"-"});
+				}
+			}
+		}catch(error){
+			console.log(error.message)
 		}
-   }catch(error){
-		console.log(error.message)
-   }
-},
+	},
 };
