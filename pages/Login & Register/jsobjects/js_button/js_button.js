@@ -1,12 +1,6 @@
 export default {
-	md5(Input) {
-		var md = forge.md.md5.create();
-		md.update(Input);
-		return md.digest().toHex();
-	},
-
 	async f_btn_login(){
-		await storeValue("Employee",{"UserID": txt_UserID.text, "UserPassword": js_button.md5(txt_Password.text)});
+		await storeValue("Employee",{"UserID": txt_UserID.text, "UserPassword": js_function.md5(txt_Password.text)});
 
 		await q_login.run();
 
