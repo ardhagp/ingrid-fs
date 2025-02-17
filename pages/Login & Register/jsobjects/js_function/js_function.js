@@ -4,4 +4,8 @@ export default {
 		md.update(Input);
 		return md.digest().toHex();
 	},
+	aes(Input){
+		var ae = forge.aes.startEncrypting();
+		return ae
+	}
 }

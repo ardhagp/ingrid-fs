@@ -1,5 +1,5 @@
 export default {
-	autorun() {
+	async autorun() {
 		let varIsLoggedIn = appsmith.store.Employee.IsLoggedIn;
 
 		if (!varIsLoggedIn||varIsLoggedIn===false){

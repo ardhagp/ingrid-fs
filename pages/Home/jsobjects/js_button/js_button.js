@@ -24,6 +24,11 @@ export default {
 		navigateTo(appsmith.store.AppSettings.LastPage,{},'SAME_WINDOW');
 	},
 	
+	async f_btn_LoginAndRegister(){
+		await storeValue("AppSettings",{"LastPage":"Home"});
+		navigateTo('Login & Register',{},'SAME_WINDOW');
+	},
+	
 	async f_btn_ClearVariables(){
 		clearStore();
 		await storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true,"IsAdminBoolean":false});

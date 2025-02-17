@@ -1,0 +1,1 @@
+SELECT *, if(wsp_employee.employee_isadmin=-1,'true','false') as employee_isadmin_boolean FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee.UserID}}' AND employee_password = (select to_base64(aes_encrypt('{{appsmith.store.Employee.UserPassword}}',(select sys_key from sys_settings where sys_id = 1))))
