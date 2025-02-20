@@ -1,55 +1,63 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "autoFocus": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 7,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultOptionValue": "GREEN",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "iconAlign": "left",
-  "inputType": "TEXT",
   "isDisabled": false,
+  "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "0q6166ky6h",
-  "label": "Find :",
+  "key": "n1vi4n75jy",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelStyle": "",
+  "labelStyle": "BOLD",
+  "labelText": "Year",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 7,
+  "mobileBottomRow": 11,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 20,
-  "mobileTopRow": 0,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "parentColumnSpace": 8.875,
-  "parentId": "hvdplo6a7c",
+  "optionLabel": "YEAR_NCR",
+  "optionValue": "YEAR_NCR",
+  "parentColumnSpace": 18.875,
+  "parentId": "k167j7nwii",
   "parentRowSpace": 10,
-  "placeholderText": "MIAP  DCD Code / Material / Contractor",
+  "placeholderText": "Select year",
   "renderMode": "CANVAS",
-  "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 47,
-  "showStepArrows": false,
+  "rightColumn": 45,
+  "serverSideFiltering": false,
+  "sourceData": "{{q_mat_sum_ncr_dashboard_year.data}}",
   "topRow": 0,
-  "type": "INPUT_WIDGET_V2",
-  "version": 2,
-  "widgetId": "0pgn4db4sc",
-  "widgetName": "txt_Filter"
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "bo456p8ow1",
+  "widgetName": "cbo_Year"
 }
