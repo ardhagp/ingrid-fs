@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 9,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,19 +11,16 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "3rem",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "w1zl3ornji",
+  "key": "qxsb4iewvr",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -33,23 +30,21 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 9,
-  "originalTopRow": 0,
   "overflow": "NONE",
-  "parentColumnSpace": 4.5625,
-  "parentId": "r4vqmg07nc",
+  "parentColumnSpace": 18.875,
+  "parentId": "dovowpipo9",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "{{q_ncr_summary.data[0].ncr_avg}}<p style=font-size:15px>Avg Day(s)</p>",
-  "textAlign": "CENTER",
+  "text": "Top 5 Contractors With Most NCR Item (per Year)",
+  "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "r647xzqr85",
-  "widgetName": "txt_Avg"
+  "widgetId": "gyqz5a0yyt",
+  "widgetName": "Text3"
 }
