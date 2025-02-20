@@ -1,11 +1,11 @@
 {
   "gitSyncId": "665b481e330df209a50be134_13f80326-7e00-4884-bbc8-0fb72cf0ceaf",
-  "id": "Summary NCR_q_ncr_summary",
+  "id": "Summary NCR_q_mat_sum_ncr_dashboard1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT COUNT(ncr_rowid) as `ncr_total`, (select DISTINCT COUNT(ncr_rowid) from mat_movement_ncr WHERE ncr_ncritemstatus='Open') as `ncr_open`, (select DISTINCT COUNT(ncr_rowid) from mat_movement_ncr WHERE ncr_ncritemstatus='Close') as `ncr_closed`, (SELECT ROUND(AVG(IF(ncr_ncritemclosedate <=> NULL, NULL, DATEDIFF(ncr_ncritemclosedate,mtx_datencr)))) FROM mat_movement_ncr INNER join mat_movement on mtx_id = ncr_mtxid WHERE ncr_ncritemstatus='Close' AND NOT (ncr_ncritemclosedate <=> NULL)) as `ncr_avg` FROM mat_movement_ncr;",
+      "body": "SELECT * FROM q_mat_sum_ncr_dashboard1",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -24,7 +24,7 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "q_ncr_summary",
+    "name": "q_mat_sum_ncr_dashboard1",
     "pageId": "Summary NCR",
     "userSetOnLoad": false
   }
