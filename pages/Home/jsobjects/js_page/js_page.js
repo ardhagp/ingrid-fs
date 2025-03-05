@@ -14,6 +14,7 @@ export default {
 		}catch(error){
 			console.log('Error: ' + error.message);
 			lbl_Header.setText('Error');
+			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true});
 		}
 	}
 }
