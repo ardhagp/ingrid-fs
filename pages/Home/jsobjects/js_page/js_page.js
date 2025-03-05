@@ -5,15 +5,12 @@ export default {
 			storeValue("AppSettings",{"Page_SummaryNCR_DashboardContractorYear": "2025"});
 
 			if (!varIsLoggedIn||varIsLoggedIn===false){
-				lbl_Header.setText('not logged');
 				storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true});
 			} else {
-				lbl_Header.setText('is logged');
 				storeValue("Employee",{"IsLoggedIn":true,"IsLoggedOut":false});
 			}
 		}catch(error){
 			console.log('Error: ' + error.message);
-			lbl_Header.setText('Error');
 			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true});
 		}
 	}
