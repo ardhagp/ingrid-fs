@@ -1,11 +1,15 @@
 export default {
 	async autorun() {
-		let varIsLoggedIn = appsmith.store.Employee.IsLoggedIn;
+		try{
+			let varIsLoggedIn = appsmith.store.Employee.IsLoggedIn;
 
-		if (!varIsLoggedIn||varIsLoggedIn===false){
-			storeValue("Employee",{"IsLoggedIn":false})
-		} else {
-			navigateTo('Login Success',{},'SAME_WINDOW');
+			if (!varIsLoggedIn||varIsLoggedIn===false){
+				await storeValue("Employee",{"IsLoggedIn":false})
+			} else {
+				await navigateTo('Login Success',{},'SAME_WINDOW');
+			}
+		}catch(error){
+			console.log('Error : ' + error.message);
 		}
 	}
 }
