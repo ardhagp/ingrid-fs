@@ -23,7 +23,7 @@ export default {
 				boolean_IsAdmin = false;
 			}
 			
-			await storeValue("Employee",{"IsLoggedIn": true, "IsLoggedOut": false,"UserID": txt_UserID.text,"IsAdmin": q_login_aes.data[0].employee_isadmin,"IsLocked":q_login_aes.data[0].employee_islocked,"FullName":q_login_aes.data[0].employee_fullname,"ID":q_login_aes.data[0].employee_id,"Role":q_login_aes.data[0].employee_role,"Title":q_login_aes.data[0].employee_title,"SLOC":q_login_aes.data[0].employee_slocid,"IsAdminBoolean":boolean_IsAdmin});
+			await storeValue("Employee",{"IsLoggedIn": true, "IsLoggedOut": false,"IsFirstViewAfterLogin":true,"UserID": txt_UserID.text,"IsAdmin": q_login_aes.data[0].employee_isadmin,"IsLocked":q_login_aes.data[0].employee_islocked,"FullName":q_login_aes.data[0].employee_fullname,"ID":q_login_aes.data[0].employee_id,"Role":q_login_aes.data[0].employee_role,"Title":q_login_aes.data[0].employee_title,"SLOC":q_login_aes.data[0].employee_slocid,"IsAdminBoolean":boolean_IsAdmin});
 
 			await navigateTo('Login Success',{},'SAME_WINDOW');
 			

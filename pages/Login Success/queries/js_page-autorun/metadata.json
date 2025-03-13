@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_315fc55e-e270-4e50-bab9-fbc4c4be91bc",
-  "id": "Login Success_js_page.f_btn_VisitLastPage",
+  "gitSyncId": "665b481e330df209a50be134_3b747576-778a-4ba3-8a09-3959466255b2",
+  "id": "Login Success_js_page.autorun",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
-    "fullyQualifiedName": "js_page.f_btn_VisitLastPage",
-    "name": "f_btn_VisitLastPage",
+    "executeOnLoad": true,
+    "fullyQualifiedName": "js_page.autorun",
+    "name": "autorun",
     "pageId": "Login Success",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
