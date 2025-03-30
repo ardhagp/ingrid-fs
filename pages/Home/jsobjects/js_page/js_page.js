@@ -11,7 +11,7 @@ export default {
 			}
 		}catch(error){
 			console.log('Error: ' + error.message);
-			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true,"IsFirstViewAfterLogin":false,"UserID ":""});
+			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true,"IsFirstViewAfterLogin":false,"UserID ":"","IsAdmin":false});
 		}
 	}
 }

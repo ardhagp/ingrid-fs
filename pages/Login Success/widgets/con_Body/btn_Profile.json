@@ -28,7 +28,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('My Profiles', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{js_button.f_btn_MyProfile();}}",
   "parentColumnSpace": 9.1875,
   "parentId": "xn9bmc2lgo",
   "parentRowSpace": 10,

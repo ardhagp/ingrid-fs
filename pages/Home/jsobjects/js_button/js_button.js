@@ -27,6 +27,7 @@ export default {
 	async f_btn_LoginAndRegister(){
 		await storeValue("AppSettings",{"LastPage":"Home"});
 		navigateTo('Login & Register',{},'SAME_WINDOW');
+		clearStore();
 	},
 	
 	async f_btn_ClearVariables(){

@@ -93,7 +93,7 @@
       "rightColumn": 468,
       "shouldScrollContents": false,
       "tabId": "tab2",
-      "tabName": "SYSTEM & ACCESS",
+      "tabName": "SYSTEM TOOLS",
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -189,6 +189,51 @@
       "version": 1,
       "widgetId": "xixsvc1qbe",
       "widgetName": "Canvas11"
+    },
+    {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 830,
+      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "boxShadow"
+        }
+      ],
+      "dynamicHeight": "AUTO_HEIGHT",
+      "dynamicTriggerPathList": [],
+      "flexLayers": [],
+      "isLoading": false,
+      "isVisible": true,
+      "key": "jzdh01aa6m",
+      "leftColumn": 0,
+      "maxDynamicHeight": 9000,
+      "minDynamicHeight": 4,
+      "minHeight": 870,
+      "minWidth": 450,
+      "mobileBottomRow": 871,
+      "mobileLeftColumn": 0,
+      "mobileRightColumn": 1248,
+      "mobileTopRow": 1,
+      "needsErrorInfo": false,
+      "parentColumnSpace": 1,
+      "parentId": "w2kaujx1n2",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 1248,
+      "tabId": "tabiuhosqb5ab",
+      "tabName": "PARTNER REL.",
+      "topRow": 1,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "dulrk1rtqe",
+      "widgetName": "Canvas12"
     }
   ],
   "defaultTab": "MATERIALS",
@@ -239,6 +284,7 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "MATERIALS",
       "positioning": "vertical",
@@ -246,23 +292,34 @@
     },
     "tab2": {
       "id": "tab2",
-      "index": 1,
+      "index": 2,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "SYSTEM & ACCESS",
+      "label": "SYSTEM TOOLS",
       "positioning": "vertical",
       "widgetId": "r7bzfj8rcg"
     },
+    "tabiuhosqb5ab": {
+      "id": "tabiuhosqb5ab",
+      "index": 1,
+      "isDuplicateLabel": false,
+      "isVisible": true,
+      "label": "PARTNER REL.",
+      "widgetId": "dulrk1rtqe"
+    },
     "tabovib4gdhp8": {
       "id": "tabovib4gdhp8",
-      "index": 3,
+      "index": 4,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "ABOUT",
       "widgetId": "xixsvc1qbe"
     },
     "tabpqn18l1bxh": {
       "id": "tabpqn18l1bxh",
-      "index": 2,
-      "isVisible": "{{appsmith.store.Employee.IsAdminBoolean}}",
+      "index": 3,
+      "isDuplicateLabel": false,
+      "isVisible": "{{appsmith.store.Employee.IsAdmin}}",
       "label": "DEVELOPER",
       "widgetId": "ef26m35i8w"
     }
