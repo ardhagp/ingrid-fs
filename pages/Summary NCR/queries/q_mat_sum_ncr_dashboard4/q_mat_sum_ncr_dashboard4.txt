@@ -1,1 +1,1 @@
-SELECT * FROM q_mat_sum_ncr_dashboard4 where YEAR_NCR_ISSUED = {{appsmith.store.PageSummaryNCR.DashboardContractorYear}} LIMIT 0,5;
+SELECT * FROM q_mat_sum_ncr_dashboard4 where YEAR_NCR_ISSUED = {{appsmith.store.AppSettings_Page_SummaryNCR_DashboardContractorYear}} LIMIT 0,5;

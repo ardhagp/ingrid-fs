@@ -1,11 +1,11 @@
 export default {
 	async autorun() {
-		let varIsLoggedIn=appsmith.store.Employee.IsLoggedIn;
+		let varIsLoggedIn=appsmith.store.Employee_IsLoggedIn;
 
 		if (!varIsLoggedIn||varIsLoggedIn===false){
 			navigateTo('Login & Register',{},'SAME_WINDOW');
 		} else {
-			let varYear = appsmith.store.AppSettings.Page_SummaryNCR_DashboardContractorYear;
+			let varYear = appsmith.store.AppSettings_Page_SummaryNCR_DashboardContractorYear;
 			await q_mat_sum_ncr_dashboard1.run(); 
 
 			let var_ncr_total = q_mat_sum_ncr_dashboard1.data[0].NCR_TOTAL;
@@ -15,7 +15,7 @@ export default {
 
 			if (!varYear||varYear==='') {
 				const constCurrentYear = moment().year;
-				storeValue("AppSettings",{"Page_SummaryNCR_DashboardContractorYear":constCurrentYear});
+				storeValue("AppSettings_Page_SummaryNCR_DashboardContractorYear",constCurrentYear);
 				q_mat_sum_ncr_dashboard4.run();
 			}
 

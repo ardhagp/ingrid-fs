@@ -1,17 +1,23 @@
 export default {
-	autorun () {
+	async autorun () {
 		try{
-			let varIsLoggedIn=appsmith.store.Employee.IsLoggedIn;
-			storeValue("AppSettings",{"Page_SummaryNCR_DashboardContractorYear": "2025"});
+			let varIsLoggedIn=appsmith.store.Employee_IsLoggedIn;
+			await storeValue("AppSettings_Page_SummaryNCR_DashboardContractorYear",moment().year);
 
 			if (!varIsLoggedIn||varIsLoggedIn===false){
-				storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true,"UserID ":""});
-			} else {
-				storeValue("Employee",{"IsLoggedIn":true,"IsLoggedOut":false});
+				await storeValue("Employee_IsLoggedIn",false);
+				await storeValue("Employee_IsLoggedOut",true);
+				await storeValue("Employee_UserID","");
+				await storeValue("Employee_IsAdmin",false);
+				await storeValue("Employee_IsAdminBoolean",false);
 			}
 		}catch(error){
 			console.log('Error: ' + error.message);
-			storeValue("Employee",{"IsLoggedIn":false,"IsLoggedOut":true,"IsFirstViewAfterLogin":false,"UserID ":"","IsAdmin":false});
+				await storeValue("Employee_IsLoggedIn",false);
+				await storeValue("Employee_IsLoggedOut",true);
+				await storeValue("Employee_UserID","");
+				await storeValue("Employee_IsAdmin",false);
+				await storeValue("Employee_IsAdminBoolean",false);
 		}
 	}
 }

@@ -1,1 +1,1 @@
-SELECT module_code, accesslevel_name FROM sys_module_access INNER JOIN sys_module on moduleaccess_moduleid = module_id INNER join sys_access_level on moduleaccess_accesslevel = accesslevel_id WHERE moduleaccess_employeeid = {{appsmith.store.Employee.ID}} ORDER by module_code ASC;
+SELECT module_code, accesslevel_name FROM sys_module_access INNER JOIN sys_module on moduleaccess_moduleid = module_id INNER join sys_access_level on moduleaccess_accesslevel = accesslevel_id WHERE moduleaccess_employeeid = {{appsmith.store.Employee_ID}} ORDER by module_code ASC;

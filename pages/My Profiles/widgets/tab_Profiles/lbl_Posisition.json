@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Position :<p style=color:red> {{appsmith.store.Employee.Title}}</p>",
+  "text": "Position :<p style=color:red> {{appsmith.store.Employee_Title}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,

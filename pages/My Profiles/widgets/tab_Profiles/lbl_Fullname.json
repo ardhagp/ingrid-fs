@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Full Name :<p style=color:red> {{appsmith.store.Employee.FullName}}</p>",
+  "text": "Full Name :<p style=color:red> {{appsmith.store.Employee_FullName}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 5,

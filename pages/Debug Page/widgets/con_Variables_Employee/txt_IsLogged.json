@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 11,
   "boxShadow": "none",
-  "defaultText": "{{appsmith.store.Employee.IsLoggedIn}}",
+  "defaultText": "{{appsmith.store.Employee_IsLoggedIn}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"

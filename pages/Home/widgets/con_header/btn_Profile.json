@@ -54,7 +54,7 @@
       "id": "menuItem1",
       "index": 0,
       "isDisabled": false,
-      "isVisible": "{{appsmith.store.Employee.IsLoggedOut}}",
+      "isVisible": "{{appsmith.store.Employee_IsLoggedOut}}",
       "label": "Login & Register",
       "onClick": "{{js_button.f_btn_LoginAndRegister();}}",
       "widgetId": ""
@@ -63,7 +63,7 @@
       "id": "menuItem2",
       "index": 1,
       "isDisabled": false,
-      "isVisible": "{{appsmith.store.Employee.IsLoggedIn}}",
+      "isVisible": "{{appsmith.store.Employee_IsLoggedIn}}",
       "label": "My Profile",
       "onClick": "{{navigateTo('My Profiles', {}, 'SAME_WINDOW');}}",
       "widgetId": ""
@@ -72,7 +72,7 @@
       "id": "menuItem3",
       "index": 2,
       "isDisabled": false,
-      "isVisible": "{{appsmith.store.Employee.IsLoggedIn}}",
+      "isVisible": "{{appsmith.store.Employee_IsLoggedIn}}",
       "label": "Logout",
       "onClick": "{{navigateTo('Logout', {}, 'SAME_WINDOW');}}",
       "widgetId": ""

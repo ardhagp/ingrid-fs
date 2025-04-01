@@ -4,11 +4,10 @@ export default {
 	},
 	
 	f_btn_MyProfile(){
-		//navigateTo('My Profiles',{},'SAME_WINDOW');
-		navigateTo('Debug Page',{},'SAME_WINDOW');
+		navigateTo('My Profiles',{},'SAME_WINDOW');
 	},
 	
 	f_btn_VisitLastPage(){
-		navigateTo(appsmith.store.AppSettings.LastPage,{},'SAME_WINDOW');
+		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	}
 }

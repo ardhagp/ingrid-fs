@@ -319,7 +319,7 @@
       "id": "tabpqn18l1bxh",
       "index": 3,
       "isDuplicateLabel": false,
-      "isVisible": "{{appsmith.store.Employee.IsAdmin}}",
+      "isVisible": "{{appsmith.store.Employee_IsAdmin}}",
       "label": "DEVELOPER",
       "widgetId": "ef26m35i8w"
     }

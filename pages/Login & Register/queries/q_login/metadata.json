@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee.UserID}}' AND employee_password_web = '{{appsmith.store.Employee.UserPassword}}'",
+      "body": "SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee_UserID}}' AND employee_password_web = '{{appsmith.store.Employee_UserPassword}}'",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

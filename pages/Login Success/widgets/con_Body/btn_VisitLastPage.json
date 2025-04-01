@@ -42,7 +42,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 64,
-  "text": "Continue Last Page ({{appsmith.store.AppSettings.LastPage}})",
+  "text": "Continue Last Page ({{appsmith.store.AppSettings_LastPage}})",
   "topRow": 26,
   "type": "BUTTON_WIDGET",
   "version": 1,
