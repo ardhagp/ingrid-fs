@@ -9,7 +9,6 @@ export default {
 				await storeValue("Employee_IsLoggedOut",true);
 				await storeValue("Employee_UserID","");
 				await storeValue("Employee_IsAdmin",false);
-				await storeValue("Employee_IsAdminBoolean",false);
 			}
 		}catch(error){
 			console.log('Error: ' + error.message);
