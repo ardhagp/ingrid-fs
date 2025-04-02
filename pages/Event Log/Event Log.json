@@ -1,8 +1,7 @@
 {
-  "gitSyncId": "665b481e330df209a50be134_695ac195-d3c5-49e0-9821-5ef2a13fbc1c",
+  "gitSyncId": "665b481e330df209a50be134_3270e771-433f-4da8-9792-532c48007fff",
   "unpublishedPage": {
-    "customSlug": "my-profiles",
-    "isHidden": true,
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "My Profiles",
-    "slug": "my-profiles"
+    "name": "Event Log",
+    "slug": "event-log"
   }
 }

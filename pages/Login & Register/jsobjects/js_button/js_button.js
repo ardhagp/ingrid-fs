@@ -25,12 +25,19 @@ export default {
 				boolean_IsAdmin = false;
 			}
 
+			let boolean_IsLocked;
+			if	(q_login_aes.data[0].employee_islocked===-1) {
+				boolean_IsLocked = true;
+			} else {
+				boolean_IsLocked = false;
+			}
+
 			//await storeValue("Employee",{"IsLoggedIn": true, "IsLoggedOut": false,"IsFirstViewAfterLogin":true,"UserID": txt_UserID.text,"IsAdmin": q_login_aes.data[0].employee_isadmin,"IsLocked":q_login_aes.data[0].employee_islocked,"FullName":q_login_aes.data[0].employee_fullname,"ID":q_login_aes.data[0].employee_id,"Role":q_login_aes.data[0].employee_role,"Title":q_login_aes.data[0].employee_title,"SLOC":q_login_aes.data[0].employee_slocid,"IsAdminBoolean":boolean_IsAdmin});
 
 			await storeValue("Employee_IsLoggedIn",true);
 			await storeValue("Employee_IsLoggedOut",false);
 			await storeValue("Employee_IsAdmin",boolean_IsAdmin);
-			await storeValue("Employee_IsLocked",q_login_aes.data[0].employee_islocked);
+			await storeValue("Employee_IsLocked",boolean_IsLocked);
 			await storeValue("Employee_IsFirstViewAfterLogin",true);
 			await storeValue("Employee_ID",q_login_aes.data[0].employee_id);
 			await storeValue("Employee_UserID",txt_UserID.text);

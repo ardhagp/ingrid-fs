@@ -34,6 +34,8 @@
   "mobileTopRow": 4,
   "needsErrorInfo": false,
   "onClick": "{{js_button.f_btn_SummaryIncoming();}}",
+  "originalBottomRow": 17,
+  "originalTopRow": 13,
   "parentColumnSpace": 8.875,
   "parentId": "t5l6kux8ag",
   "parentRowSpace": 10,

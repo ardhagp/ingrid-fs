@@ -1,9 +1,9 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 33,
   "boxShadow": "none",
-  "buttonColor": "#fde047",
+  "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
@@ -11,37 +11,32 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "lljg9ky69p",
-  "leftColumn": 0,
+  "key": "syheas4ut0",
+  "leftColumn": 1,
   "minWidth": 120,
-  "mobileBottomRow": 8,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 4,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 46,
+  "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{js_button.f_btn_EventLog();}}",
-  "parentColumnSpace": 8.875,
-  "parentId": "yoatizps6x",
-  "parentRowSpace": 10,
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "parentId": "jox90nhbub",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
+  "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 64,
-  "text": "Event Log",
-  "topRow": 4,
+  "rightColumn": 63,
+  "text": "Cancel",
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "t1ytwsux89",
-  "widgetName": "btn_Event_Log"
+  "widgetId": "5cymwgt65u",
+  "widgetName": "btn_ResetCopy"
 }

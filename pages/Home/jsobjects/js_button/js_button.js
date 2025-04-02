@@ -1,32 +1,49 @@
 export default {
 	async f_btn_SummaryIncoming(){
 		await storeValue("AppSettings_LastPage","Summary Incoming");
-		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
+		await storeValue("AppSettings_Module_Open","");
+		await navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	},
 
 	async f_btn_SummaryOutgoing(){
 		await storeValue("AppSettings_LastPage","Summary Outgoing");
+		await storeValue("AppSettings_Module_Open","");
 		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	},
 
 	async f_btn_SummaryNCR(){
 		await storeValue("AppSettings_LastPage","Summary NCR");
-		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
+
+		if (appsmith.store.Employee_IsLoggedIn===true){
+			await storeValue("AppSettings_Module_Open","APP_MAT_SUM_NCR");
+			await navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
+		}else{
+			await navigateTo('Login & Register',{},'SAME_WINDOW');
+		}
 	},
 
 	async f_btn_QRForMaterial(){
 		await storeValue("AppSettings_LastPage","QR For Material");
-		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
+		await storeValue("AppSettings_Module_Open","");
+		await navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	},
 
 	async f_btn_DeliveryStatus(){
 		await storeValue("AppSettings_LastPage","Delivery Status");
-		navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
+		await storeValue("AppSettings_Module_Open","");
+		await navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	},
 
 	async f_btn_LoginAndRegister(){
 		await storeValue("AppSettings_LastPage","Home");
-		navigateTo('Login & Register',{},'SAME_WINDOW');
+		await storeValue("AppSettings_Module_Open","");
+		await navigateTo('Login & Register',{},'SAME_WINDOW');
+	},
+
+	async f_btn_EventLog(){
+		await storeValue("AppSettings_LastPage","Event Log");
+		await storeValue("AppSettings_Module_Open","");
+		await navigateTo(appsmith.store.AppSettings_LastPage,{},'SAME_WINDOW');
 	},
 
 	async f_btn_ClearVariables(){

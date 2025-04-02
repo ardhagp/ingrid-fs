@@ -1,0 +1,2 @@
+SELECT COUNT(mod_a.moduleaccess_rowid) as `is_exist` FROM `sys_module`as `mod` INNER JOIN `sys_module_access` as `mod_a` ON `mod_a`.`moduleaccess_moduleid` = `mod`.`module_id` INNER JOIN `wsp_employee` as `emp` ON `mod_a`.`moduleaccess_employeeid` = `emp`.`employee_id`
+WHERE `mod`.`module_code` = '{{appsmith.store.AppSettings_Module_Open}}' AND mod_a.moduleaccess_employeeid = '{{appsmith.store.Employee_ID}}'

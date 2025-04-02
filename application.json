@@ -102,6 +102,10 @@
     {
       "id": "About",
       "isDefault": false
+    },
+    {
+      "id": "Event Log",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

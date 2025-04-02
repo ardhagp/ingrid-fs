@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 57,
   "shouldTruncate": false,
-  "text": "Welcome, {{appsmith.store.Employee.FullName}}",
+  "text": "Welcome, {{appsmith.store.Employee_FullName}}",
   "textAlign": "CENTER",
   "textColor": "#ffffff",
   "topRow": 0,
