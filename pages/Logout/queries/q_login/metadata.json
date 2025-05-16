@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "q_login",
     "pageId": "Logout",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

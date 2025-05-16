@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_ViewRegID",
     "name": "f_btn_ViewRegID",
     "pageId": "QR For Material",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

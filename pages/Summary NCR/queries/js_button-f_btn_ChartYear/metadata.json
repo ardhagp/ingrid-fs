@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_ChartYear",
     "name": "f_btn_ChartYear",
     "pageId": "Summary NCR",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

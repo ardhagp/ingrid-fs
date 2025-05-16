@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_page.f_logout",
     "name": "f_logout",
     "pageId": "Restricted",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

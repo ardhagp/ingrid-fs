@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_Logout",
     "name": "f_btn_Logout",
     "pageId": "Logout",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

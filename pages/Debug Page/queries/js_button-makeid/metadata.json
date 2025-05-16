@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.makeid",
     "name": "makeid",
     "pageId": "Debug Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

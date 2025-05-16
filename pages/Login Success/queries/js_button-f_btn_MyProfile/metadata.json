@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_MyProfile",
     "name": "f_btn_MyProfile",
     "pageId": "Login Success",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

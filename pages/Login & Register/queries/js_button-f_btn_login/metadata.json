@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_login",
     "name": "f_btn_login",
     "pageId": "Login & Register",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

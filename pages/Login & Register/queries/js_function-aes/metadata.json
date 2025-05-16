@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_function.aes",
     "name": "aes",
     "pageId": "Login & Register",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

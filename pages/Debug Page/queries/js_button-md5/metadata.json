@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.md5",
     "name": "md5",
     "pageId": "Debug Page",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

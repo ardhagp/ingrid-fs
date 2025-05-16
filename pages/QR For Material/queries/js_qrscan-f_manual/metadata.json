@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_qrscan.f_manual",
     "name": "f_manual",
     "pageId": "QR For Material",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

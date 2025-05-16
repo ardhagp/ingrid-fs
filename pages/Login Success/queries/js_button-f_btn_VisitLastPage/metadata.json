@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_VisitLastPage",
     "name": "f_btn_VisitLastPage",
     "pageId": "Login Success",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

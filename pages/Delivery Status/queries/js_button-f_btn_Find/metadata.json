@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_button.f_btn_Find",
     "name": "f_btn_Find",
     "pageId": "Delivery Status",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

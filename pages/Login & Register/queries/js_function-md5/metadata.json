@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_function.md5",
     "name": "md5",
     "pageId": "Login & Register",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "js_page.md5",
     "name": "md5",
     "pageId": "Restricted",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
