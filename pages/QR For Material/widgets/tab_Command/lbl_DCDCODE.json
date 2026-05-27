@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 9,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -41,9 +38,9 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
+  "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "BATCH / VAL TYPE : <p style=color:red>{{appsmith.store.QR_Material.B}} / {{appsmith.store.QR_Material.VT}}</p>",
+  "text": "MATERIAL NAME / PN : <p style=color:red>Loading...</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 5,
