@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "PLANT / SLOC / B / VT : <p style=color:red>{{appsmith.store.QR_Material.PLANT}} / {{appsmith.store.QR_Material.SLOC}} / {{appsmith.store.QR_Material.B}} / {{appsmith.store.QR_Material.VT}}</p>",
+  "text": "PL / SL / B / VT / SP : <p style=color:red>{{appsmith.store.QR_Material.PLANT}} / {{appsmith.store.QR_Material.SLOC}} / {{appsmith.store.QR_Material.B}} / {{appsmith.store.QR_Material.VT}} / {{appsmith.store.QR_Material.SP}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,
