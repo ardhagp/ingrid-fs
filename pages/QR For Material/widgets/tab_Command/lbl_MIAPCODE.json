@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "MIAP CODE : <p style=color:red>{{appsmith.store.QR_Material.MIAP}}</p>",
+  "text": "MIAP CODE / DCD CODE / SPC : <p style=color:red>{{appsmith.store.QR_Material.MIAP}} / {{appsmith.store.QR_Material.DCD}} / {{appsmith.store.QR_Material.SPC}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 0,

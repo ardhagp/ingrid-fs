@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee_UserID}}' AND employee_password_web = '{{appsmith.store.Employee_UserPassword}}'",
+      "body": "select usr.user_id, \nusr.user_isroot, \nemp.employee_id, \nemp.employee_number, \nemp.employee_fullname, \nemp.employee_nickname, \nemp.employee_personalidnumber, \nemp.employee_gender, \nusr.user_employee, \nusr.user_username, \npost.position_code, \npost.position_name\nfrom sys_user `usr`\ninner join man_employee `emp` \non emp.employee_id = usr.user_employee\ninner join man_position `post`\non post.position_id = emp.employee_position\nwhere usr.user_username = '{{appsmith.store.Employee_UserID}}' and usr.user_password = MD5('{{appsmith.store.Employee_UserPassword}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "PLANT / SLOC : <p style=color:red>{{appsmith.store.QR_Material.PLANT}} / {{appsmith.store.QR_Material.SLOC}}</p>",
+  "text": "BINLOC / QTY : <p style=color:red>{{appsmith.store.QR_Material.BINLOC}} / {{appsmith.store.QR_Material.QTY}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 10,

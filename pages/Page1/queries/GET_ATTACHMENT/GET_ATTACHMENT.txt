@@ -1,0 +1,4 @@
+{
+  "bucketId": "your-bucket-id",
+  "maxFileCount": 100
+}

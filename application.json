@@ -29,7 +29,7 @@
     "width": "1024px"
   },
   "evaluationVersion": 2,
-  "icon": "package",
+  "icon": "workflows",
   "pages": [
     {
       "id": "Startup",
@@ -105,6 +105,10 @@
     },
     {
       "id": "Event Log",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
       "isDefault": false
     }
   ],

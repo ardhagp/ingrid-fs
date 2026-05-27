@@ -25,7 +25,7 @@
     "dynamicBindingPathList": [],
     "name": "q_mat_sum_ncr_dashboard1",
     "pageId": "Summary NCR",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

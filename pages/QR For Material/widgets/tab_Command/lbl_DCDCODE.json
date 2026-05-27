@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "DCD CODE : <p style=color:red>{{appsmith.store.QR_Material.DCD}}</p>",
+  "text": "BATCH / VAL TYPE : <p style=color:red>{{appsmith.store.QR_Material.B}} / {{appsmith.store.QR_Material.VT}}</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 5,

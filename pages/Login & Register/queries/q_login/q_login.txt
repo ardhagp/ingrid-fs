@@ -1,1 +1,18 @@
-SELECT * FROM wsp_employee WHERE employee_code = '{{appsmith.store.Employee_UserID}}' AND employee_password_web = '{{appsmith.store.Employee_UserPassword}}'
+select usr.user_id, 
+usr.user_isroot, 
+emp.employee_id, 
+emp.employee_number, 
+emp.employee_fullname, 
+emp.employee_nickname, 
+emp.employee_personalidnumber, 
+emp.employee_gender, 
+usr.user_employee, 
+usr.user_username, 
+post.position_code, 
+post.position_name
+from sys_user `usr`
+inner join man_employee `emp` 
+on emp.employee_id = usr.user_employee
+inner join man_position `post`
+on post.position_id = emp.employee_position
+where usr.user_username = '{{appsmith.store.Employee_UserID}}' and usr.user_password = MD5('{{appsmith.store.Employee_UserPassword}}');

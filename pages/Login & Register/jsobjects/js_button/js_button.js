@@ -12,21 +12,21 @@ export default {
 		//await q_login.run();
 
 		//new aes
-		await q_login_aes.run();
+		await q_login.run();
 
-		if (q_login_aes.data.length===1) {
+		if (q_login.data.length===1) {
 			txt_Result.setVisibility(false);
 			txt_Result.setText('Berhasil');
 			//console.log(q_login.data.length);
 			let boolean_IsAdmin;
-			if	(q_login_aes.data[0].employee_isadmin===-1) {
+			if	(q_login.data[0].employee_isadmin===-1) {
 				boolean_IsAdmin = true;
 			} else {
 				boolean_IsAdmin = false;
 			}
 
 			let boolean_IsLocked;
-			if	(q_login_aes.data[0].employee_islocked===-1) {
+			if	(q_login.data[0].employee_islocked===-1) {
 				boolean_IsLocked = true;
 			} else {
 				boolean_IsLocked = false;
@@ -39,16 +39,16 @@ export default {
 			await storeValue("Employee_IsAdmin",boolean_IsAdmin);
 			await storeValue("Employee_IsLocked",boolean_IsLocked);
 			await storeValue("Employee_IsFirstViewAfterLogin",true);
-			await storeValue("Employee_ID",q_login_aes.data[0].employee_id);
+			await storeValue("Employee_ID",q_login.data[0].employee_id);
 			await storeValue("Employee_UserID",txt_UserID.text);
-			await storeValue("Employee_FullName",q_login_aes.data[0].employee_fullname);
-			await storeValue("Employee_Role",q_login_aes.data[0].employee_role);
-			await storeValue("Employee_Title",q_login_aes.data[0].employee_title);
-			await storeValue("Employee_SLOC",q_login_aes.data[0].employee_slocid);
+			await storeValue("Employee_FullName",q_login.data[0].employee_fullname);
+			await storeValue("Employee_Role",q_login.data[0].employee_role);
+			await storeValue("Employee_Title",q_login.data[0].employee_title);
+			await storeValue("Employee_SLOC",q_login.data[0].employee_slocid);
 
 			await navigateTo('Login Success',{},'SAME_WINDOW');
 
-		} else if (q_login_aes.data.length===0) {
+		} else if (q_login.data.length===0) {
 			txt_Result.setVisibility(true);
 			txt_Result.setText('⚠️ Failed to Login! <br />Incorrect User ID or Password.<br />Please try again.');
 			//console.log(q_login.data.length);
