@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 15,
+  "bottomRow": 10,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -23,33 +20,33 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "fvtyjrwo5y",
+  "key": "gdh6mopsv5",
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 19,
-  "mobileLeftColumn": 8,
-  "mobileRightColumn": 24,
-  "mobileTopRow": 15,
+  "mobileBottomRow": 61,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 16,
+  "mobileTopRow": 57,
   "needsErrorInfo": false,
-  "originalBottomRow": 15,
-  "originalTopRow": 10,
+  "originalBottomRow": 10,
+  "originalTopRow": 5,
   "overflow": "NONE",
-  "parentColumnSpace": 9.1875,
+  "parentColumnSpace": 19.5,
   "parentId": "0gs357shas",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
+  "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "PLANT / SLOC / B / VT : <p style=color:red>{{appsmith.store.QR_Material.PLANT}} / {{appsmith.store.QR_Material.SLOC}} / {{appsmith.store.QR_Material.B}} / {{appsmith.store.QR_Material.VT}}</p>",
+  "text": "MATERIAL NAME / PN : <p style=color:red>Loading...</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 10,
+  "topRow": 5,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "wusxlaljb9",
-  "widgetName": "lbl_val_mattype"
+  "widgetId": "h7rd0j8zf1",
+  "widgetName": "lbl_MIDLE"
 }

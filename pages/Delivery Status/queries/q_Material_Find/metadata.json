@@ -29,7 +29,7 @@
     ],
     "name": "q_Material_Find",
     "pageId": "Delivery Status",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

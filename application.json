@@ -1,7 +1,7 @@
 {
   "appIsExample": false,
   "appLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "applicationDetail": {
     "navigationSetting": {
@@ -113,7 +113,7 @@
     }
   ],
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "DESKTOP"
   },
   "unpublishedApplicationDetail": {
     "navigationSetting": {
