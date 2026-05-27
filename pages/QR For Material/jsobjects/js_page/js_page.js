@@ -5,7 +5,7 @@ export default {
 		if(!varIsLoggedIn||varIsLoggedIn===false){
 			navigateTo('Login & Register',{},'SAME_WINDOW');
 		} else {
-			await storeValue("QR_Material",{"MIAP":"-","DCD":"-","VT":"-","MT":"-","MC":"-","PLANT":"-","SLOC":"-","REGID":"-","PUBLISH":"-"});
+			await storeValue("QR_Material",{"PLANT":"-","SLOC":"-","MIAP":"-","DCD":"-","B":"-","VT":"-","SP":"-","PO":"-","QTY":"-","REGID":"-","ITEMID":"-","BINLOC":"-","SPC":"-","APPNAME":"-"});
 		}
 	}
 }
