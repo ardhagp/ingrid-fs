@@ -31,7 +31,7 @@
   "mobileRightColumn": 64,
   "mobileTopRow": 52,
   "needsErrorInfo": false,
-  "onClick": "{{js_qrscan.f_GetSecondData();}}",
+  "onClick": "",
   "originalBottomRow": 20,
   "originalTopRow": 16,
   "parentColumnSpace": 19.5,
