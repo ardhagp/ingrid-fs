@@ -1,6 +1,6 @@
 {
   "gitSyncId": "665b481e330df209a50be134_e395d548-6b32-43f3-93d8-1ea88b058575",
-  "id": "QR For Material_js_qrscan.f_ExtractString",
+  "id": "QR For Material_js_qrscan.f_GetSecondData",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,8 +22,8 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "js_qrscan.f_ExtractString",
-    "name": "f_ExtractString",
+    "fullyQualifiedName": "js_qrscan.f_GetSecondData",
+    "name": "f_GetSecondData",
     "pageId": "QR For Material",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
