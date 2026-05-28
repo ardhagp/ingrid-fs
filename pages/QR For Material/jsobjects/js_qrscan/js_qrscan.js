@@ -14,6 +14,7 @@ export default {
 						
 			storeValue("QR_Material",{"PLANT":SplittedText[0],"SLOC":SplittedText[1],"MIAP":SplittedText[2],"DCD":SplittedText[3],"B":SplittedText[4],"VT":SplittedText[5],"SP":SplittedText[6],"PO":SplittedText[7],"QTY":SplittedText[8],"REGID":SplittedText[9],"ITEMID":SplittedText[10],"BINLOC":SplittedText[11],"SPC":SplittedText[12],"APPNAME":SplittedText[13]});
 			
+			this.f_GetSecondData();
 		}catch(error){
 			console.log(error);
 			showAlert("Error");
