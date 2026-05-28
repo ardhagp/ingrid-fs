@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -40,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "MATERIAL NAME / PN : <p style=color:red>Loading...</p>",
+  "text": "MATERIAL NAME / PN : <p style=color:red>{{appsmith.store.QR_Material2.MATERIALNAME}} [{{appsmith.store.QR_Material2.PN}}]</p>",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 5,

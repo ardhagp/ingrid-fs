@@ -1,0 +1,10 @@
+select mtl.material_maincode, 
+mtl.material_subcode, 
+mtl.material_name, 
+mtl.material_partnumber,
+uom.uom_code
+from mat_master as `mtl`
+inner join mat_uom `uom`
+on uom.uom_id = mtl.material_uom
+where mtl.material_maincode = '{{appsmith.store.QR_Material.MIAP}}'
+and mtl.material_subcode = '{{appsmith.store.QR_Material.DCD}}';

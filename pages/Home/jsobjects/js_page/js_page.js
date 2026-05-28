@@ -1,4 +1,9 @@
 export default {
+	deviceType: () => {
+		const w = appsmith.ui.width;
+		
+	},
+	
 	async autorun () {
 		try{
 			let varIsLoggedIn=appsmith.store.Employee_IsLoggedIn;
