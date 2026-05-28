@@ -146,7 +146,7 @@
       "widgetName": "Canvas6"
     }
   ],
-  "defaultTab": "MATERIAL INFO.",
+  "defaultTab": "MATERIAL INFO",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
