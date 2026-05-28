@@ -21,12 +21,12 @@ export default {
 			const QRResultString = await appsmith.store.QR_Material.QRResult;			
 			const SplittedText = await QRResultString.split("_._");
 			
-			await storeValue("QR_Material",{"PLANT":SplittedText[0],"SLOC":SplittedText[1],"MIAP":SplittedText[2],"DCD":SplittedText[3],"B":SplittedText[4],"VT":SplittedText[5],"SP":SplittedText[6],"PO":SplittedText[7],"QTY":SplittedText[8],"REGID":SplittedText[9],"ITEMID":SplittedText[10],"BINLOC":SplittedText[11],"SPC":SplittedText[12],"APPNAME":SplittedText[13]});
+			storeValue("QR_Material",{"PLANT":SplittedText[0],"SLOC":SplittedText[1],"MIAP":SplittedText[2],"DCD":SplittedText[3],"B":SplittedText[4],"VT":SplittedText[5],"SP":SplittedText[6],"PO":SplittedText[7],"QTY":SplittedText[8],"REGID":SplittedText[9],"ITEMID":SplittedText[10],"BINLOC":SplittedText[11],"SPC":SplittedText[12],"APPNAME":SplittedText[13]});
 			
-			await q_material.run();
+			q_material.run();
 			
 			if (q_material.data.length===1){
-					await storeValue("QR_Material2",{"MATERIALNAME":q_material.data[0].material_name,"PN":q_material.data[0].material_partnumber,"UOM":q_material.data[0].uom_code});
+					storeValue("QR_Material2",{"MATERIALNAME":q_material.data[0].material_name,"PN":q_material.data[0].material_partnumber,"UOM":q_material.data[0].uom_code});
 			}
 			
 		}catch(error){
