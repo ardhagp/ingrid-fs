@@ -5,19 +5,7 @@ export default {
 			try {
     const QRText = scanner_QRCode.value;
     await storeValue("QR_Material", { QRResult: QRText });
-
-    // Call the second function
-    await this.f_ExtractString();
-
-  	} catch (error) {
-    	console.log(error);
-    	showAlert("Error");
-  	}
-	},
-	
-async f_ExtractString (){
-	try {
-    const QRResultString = await appsmith.store.QR_Material.QRResult;
+		const QRResultString = await appsmith.store.QR_Material.QRResult;
     const SplittedText = await QRResultString.split("_._");
 
     await storeValue("QR_Material", {
@@ -37,6 +25,17 @@ async f_ExtractString (){
       "APPNAME": SplittedText[13]
     });
 
+    // Call the second function
+    await this.f_ExtractString();
+
+  	} catch (error) {
+    	console.log(error);
+    	showAlert("Error");
+  	}
+	},
+	
+async f_ExtractString (){
+	try {  
     await q_material.run();
 
     if (q_material.data.length === 1) {
