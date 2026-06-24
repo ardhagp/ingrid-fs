@@ -16,7 +16,6 @@ export default {
 				await storeValue("Employee_IsAdmin",false);
 			}
 		}catch(error){
-			await js_heartbeats.heartbeatFail();
 			console.log('Error: ' + error.message);
 				await storeValue("Employee_IsLoggedIn",false);
 				await storeValue("Employee_IsAdmin",false);
